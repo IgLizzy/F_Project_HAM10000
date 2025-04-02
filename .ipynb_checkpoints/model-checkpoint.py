@@ -12,23 +12,9 @@ import segmentation_models_pytorch as smp
 
 device = torch.device("cuda" if torch.cuda.is_available() else "cpu")
 
-def initialize_model(model_name: str, num_classes: int, feature_extract: bool, use_pretrained: bool = True) -> torch.nn.Module:
-
-    """
-    Инициализирует предобученную модель.
-    
-    Параметры:
-        model_name (str): Название архитектуры ('resnet', 'vgg11', 'vgg13', 'densenet')
-        num_classes (int): Количество классов для классификации
-        feature_extract (bool): Если True, замораживает веса модели (кроме последнего слоя)
-        use_pretrained (bool): Использовать предобученные веса (по умолчанию True)
-    
-    Возвращает:
-        torch.nn.Module: Инициализированная модель
-    
-    Исключения:
-        ValueError: При указании недопустимого имени модели
-    """
+def initialize_model(model_name, num_classes, feature_extract, use_pretrained=True):
+    # Initialize these variables which will be set in this if statement. Each of these
+    #   variables is model specific.
     model_ft = None
     input_size = 0
 
@@ -72,17 +58,10 @@ def initialize_model(model_name: str, num_classes: int, feature_extract: bool, u
 
 
 
-def initialize_segment_model(model_name: str) -> torch.nn.Module:
-    """
-    Инициализирует модель для семантической сегментации
-    
-    Параметры:
-        model_name: Название архитектуры ('DeepLabV3' или 'Unet')
-    
-    Возвращает:
-        Модель для семантической сегментации
-    
-    """
+def initialize_segment_model(model_name):
+    '''
+    use_pretrained can be:'COCO_WITH_VOC_LABELS_V1'
+    '''
     model_ft = None
     input_size = 0
 

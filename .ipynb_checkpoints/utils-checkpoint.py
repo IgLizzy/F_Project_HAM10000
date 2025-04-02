@@ -1,16 +1,10 @@
 import json
-import ast
 import os
 import pandas as pd
 import numpy as np
 import matplotlib.pyplot as plt
 import torch
-from typing import Union, Literal, List, TypeVar, Tuple, Optional
-import matplotlib.pyplot as plt
-from PIL import Image
-from torch import Tensor
 import torch.nn as nn
-from torch.utils.data import Dataset, WeightedRandomSampler
 import random
 import xml.etree.ElementTree as ET
 import torchvision.transforms.functional as FT
@@ -43,36 +37,18 @@ label_map = {k: v + 1 for v, k in enumerate(voc_labels)}
 rev_label_map = {v: k for k, v in label_map.items()}  # Inverse mapping
 
 
-def logs_to_list(series : pd.Series) -> List[int]:
+def logs_to_list(df):
     '''
-    Преобразует Series с логами в плоский список числовых метрик.
-
-    Параметры:
-        series: Series, содержащий логи
-
-    Возвращает:
-        Список числовых метрик (int или float)
-
-    Пример:
-        >>> series = pd.Series([1,2],[3,4])
-        >>> logs_to_list(df)
-        [1, 2, 3, 4]
+    функция для чтения логов
+    переводть столбец из df в список метрик
     '''
-    python_list = sum([ast.literal_eval(i) for i in series.to_list()], [])
+    python_list = sum([ast.literal_eval(i) for i in df.to_list()], [])
     return python_list
     
-def multiply_factor(df : pd.DataFrame) -> List[int]:
+def multiply_factor(df):
     '''
-    Вычисляет коэффициенты увеличения для балансировки классов.
-
-    Параметры:
-        df: DataFrame с данными
-
-    Возвращает:
-        Список целочисленных коэффициентов для увеличения меньших классов.
-
-    Примеры:
-        >>> df = pd.DataFrame({'dx': ['A', 'A', 'B', 'C', 'C', 'C']})
+    функция для расчета коэфф. увеличения 
+    классов при балансировке
     '''
     list_factor = []
     lbl_list = df['dx'].value_counts().to_list()
@@ -82,23 +58,11 @@ def multiply_factor(df : pd.DataFrame) -> List[int]:
             list_factor.append(round(max_lbl_count/i))
     return list_factor
 
-def tensor_to_img( tensor: Tensor, show: bool = False) -> Union[Image.Image, Tensor]:
-    """
-    Преобразует тензор в изображение для визуализации или возвращает преобразованный тензор.
-
-    Параметры:
-        tensor: Входной тензор в формате (C, H, W).
-        show: Если True, отображает изображение с помощью matplotlib.
-              Если False, возвращет тензор
-
-    Возвращает:
-        Если show = True: объект PIL.Image.Image
-        Если show = Faas: тензор в формате (H, W, C)
-
-    Примеры:
-        >>> img = tensor_to_img(tensor, show=True)
-        >>> tensor = tensor_to_img(tensor, show=False)
-    """
+def tensor_to_img(tensor, shaw=False):
+    '''
+    преобразование объектов tensor в изображение
+    необходимо для визуальной проверкт
+    '''
     # Преобразуем тензор в формат (H, W, C)
     if tensor.is_cuda:
         tensor = tensor.cpu()
@@ -113,42 +77,23 @@ def tensor_to_img( tensor: Tensor, show: bool = False) -> Union[Image.Image, Ten
     else:
         return image
 
-
-ModelType = TypeVar('ModelType', bound=nn.Module)
-def set_parameter_requires_grad(model: ModelType, feature_extracting: bool) -> ModelType:
+# feature_extract is a boolean that defines if we are finetuning or feature extracting. 
+# If feature_extract = False, the model is finetuned and all model parameters are updated. 
+# If feature_extract = True, only the last layer parameters are updated, the others remain fixed.
+def set_parameter_requires_grad(model, feature_extracting):
     '''
-    Устанавливает requires_grad для параметров модели в зависимости от режима работы.
-
-    Параметры:
-        model: Модель PyTorch (nn.Module)
-        feature_extracting: 
-            - Если True: замораживает все параметры (режим feature extraction)
-            - Если False: размораживает все параметры (режим fine-tuning)
-            
-    Возвращает:
-        Модель с обновленными параметрами requires_grad
-
-    Примеры:
-        # Полное замораживание
-        model = set_parameter_requires_grad(model, feature_extracting=True)
+    функция определяет, выполняем ли мы finetuning или feature extracting
+    - если false, все параметры модели обновляются.
+    - если true, обновляются только параметры последнего слоя, другие остаются фиксированными.
     '''
     if feature_extracting:
         for param in model.parameters():
             param.requires_grad = False
 
-def get_sampler_weight(dataset : Dataset) -> WeightedRandomSampler:
+def get_sampler_weight(dataset):
     '''
-   Создает взвешенный семплер для балансировки классов в датасете.
-
-    Параметры:
-        dataset: Датасет, содержащий метки классов
-
-    Возвращает:
-        WeightedRandomSampler для балансировки классов
-
-    Пример:
-        >>> sampler = get_balanced_sampler(dataset)
-        >>> train_loader = DataLoader(dataset, batch_size=32, sampler=sampler)
+    функция для вычисления весов для сэмплера
+    и последующей балансировке батчей
     '''
     targets = dataset.labels
     class_count = np.unique(targets, return_counts=True)[1]
@@ -159,25 +104,17 @@ def get_sampler_weight(dataset : Dataset) -> WeightedRandomSampler:
     sampler = WeightedRandomSampler(samples_weight, len(samples_weight))
     return sampler
 
-def get_class_weights(data : Dataset) -> Tensor:
+def get_class_weights(data):
     '''
-    Вычисляет веса классов для функции потерь по обратной степени частоты.
-
-    Параметры:
-        data: Входные данные (Dataset, dict, list или Tensor с метками)
-       
-    Возвращает:
-        Тензор с весами классов
-
-    Примеры:
-        weights = get_class_weights(dataset)
-        weights = [2,3,3,1,4]
+    функция для расчета весов классов для функции потерь 
+    используем обратный квадрат частоты, чтобы ещё больше увеличить вес миноритарных классов
     '''
     class_counts = torch.bincount(torch.tensor(data.labels))
     class_weights = (len(data.labels) ** 2) / (class_counts ** 2)
     class_weights = class_weights / class_weights.sum()
     return class_weights
-
+# Some augmentation functions below have been adapted from
+# From https://github.com/amdegroot/ssd.pytorch/blob/master/utils/augmentations.py
 
 def model_accuracy(out, lbl):
     _, pred = out.topk(1)
@@ -187,22 +124,9 @@ def model_accuracy(out, lbl):
     return acc
 
 #  function for semantic segmentation models
-def mask_circuit(image: Tensor, mask: Tensor, evaluation: bool = False, show: bool = True) -> Union[Image.Image, Tensor]:
+def mask_circuit(image, mask, evaluation=False, show=True):
     '''
-    Накладывает контур маски на исходное изображение.
-
-    Параметры:
-        image: Исходное изображение [C, H, W] или [B, C, H, W]
-        mask: Маска [H, W], [1, H, W] или [B, 1, H, W]
-        evaluation: Флаг режима оценки (переносит тензоры на CPU)
-        show: Флаг отображения результата
-
-    Возвращает:
-        результат работы функции передается в функцию tensor_to_img()
-        и в зависимости от флага show возвращвет:
-        - eсли show = True: объект PIL.Image.Image;
-        - eсли show = Faas: тензор в формате (H, W, C)/ 
-
+      функция для наложения контура маски на оригинальное изображение
       '''
     if evaluation:
         image = image.cpu() #если модель обучалась на GPU тензоры необходимо копировать на CPU
@@ -231,23 +155,15 @@ def mask_circuit(image: Tensor, mask: Tensor, evaluation: bool = False, show: bo
     
     return tensor_to_img(result, shaw=show)
 
-def iou_dice_score(pred: Tensor, target: Tensor, threshold: float = 0.5, multiclass: bool = False) -> Tuple[Union[float, Tensor], Union[float, Tensor]]:
+def iou_dice_score(pred, target, multiclass=False):
     '''
-   Вычисляет метрики IoU (Intersection over Union) и Dice для сегментации.
-
-    Параметры:
-        pred: Предсказанные маски [N, C, H, W] или [N, H, W]
-        target: Истинные маски [N, H, W] или [N, C, H, W]
-        threshold: Порог бинаризации для бинарной сегментации
-        multiclass: Флаг многоклассовой сегментации
-
-    Возвращает:
-        Кортеж (iou_score, dice_score)
-
+    функция для определения метрик:
+    - IoU (Intersection over Union);
+    - Dice.
     '''
     if multiclass:
         pred = torch.sigmoid(pred) #если сегментация не бинарная
-    pred = (pred > threshold).float()
+    pred = (pred>0/5).float()
     
     intersection = (pred * target).sum()
     unoin = pred.sum() + target.sum() - intersection
@@ -256,22 +172,11 @@ def iou_dice_score(pred: Tensor, target: Tensor, threshold: float = 0.5, multicl
     dice = (2. * intersection + 1e-6) / (pred.sum() + target.sum() + 1e-6)
     return iou.item(), dice.item()
 
-def show_masks(images: Union[List[Tensor], Tensor], masks: Union[List[Tensor], Tensor], predicted_masks: Union[List[Tensor], Tensor]):
+def show_masks(images, masks, predicted_masks):
     '''
-    Функция для визуального сравнения исходных масок и предсказанных моделью
-    
-    Параметры:
-        images: список исходных изображений
-        masks: список истинных масок (разметка)
-        predicted_masks: список масок, предсказанных моделью
-    
-    Возвращает:
-        Визуализацию в виде: 
-        1. Исходное изображение
-        2. Исходная маска 
-        3. Исходное изображение с контуром маски
-        4. Предсказанная маска
-        5. Исходное изображение с контуром предсказанной маски
+    функция для визуального сравнения исходных масок и предсказанных моделью
+    вход: 
+    вывод: исходное изображение, исходная маска, предсказанная маска
     '''
     assert len(images) == len(masks) == len(predicted_masks)
     if len(images) in [1, 2]:

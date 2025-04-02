@@ -1,4 +1,3 @@
-# был реализован в файле proj_explor
 import torch
 from utils import mask_circuit
 
