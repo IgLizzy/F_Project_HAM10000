@@ -20,10 +20,16 @@ device = torch.device("cuda" if torch.cuda.is_available() else "cpu")
 
 # Назначьте больший вес миноритарным классам для функции потерь
 imgs_df = pd.read_csv('HAM10000_metadata.csv')
+mod_imgs_df = pd.read_csv('full_isic.csv')
 imgs_df['cell_type_idx'] = pd.Categorical(imgs_df['dx']).codes
 imgs_df['full_cell_type_name'] = imgs_df['dx'].map({'nv':'Melanocytic nevi', 'bkl':'Benign keratosis-like lesions', 
                                                     'df':'Dermatofibroma', 'mel':'Melanoma', 'vasc':'Vascular lesions', 
                                                     'bcc':'Basal cell carcinoma', 'akiec':'Actinic keratoses'})
+
+mod_imgs_df['dx'] = mod_imgs_df['diagnosis'].map({'nevus':'nv', 'benign keratosis-like lesions':'bkl', 
+                                                    'dermatofibroma':'df', 'melanoma':'mel', 'vascular lesions':'vasc', 
+                                                    'basal cell carcinoma':'bcc', 'actinic keratoses':'akiec'})
+mod_imgs_df['cell_type_idx'] = pd.Categorical(mod_imgs_df['dx']).codes
 # список multiply_factor содержит множители для балансировки классов
 # multiply_factor = [round(imgs_df['dx'].value_counts().max()/i) for i in imgs_df['dx'].value_counts().to_list() if i != imgs_df['dx'].value_counts().max()]
 # список itm_list содержит классы, которые нцжно балансировать
@@ -61,7 +67,7 @@ def logs_to_list(series : pd.Series) -> List[int]:
     python_list = sum([ast.literal_eval(i) for i in series.to_list()], [])
     return python_list
     
-def multiply_factor(df : pd.DataFrame) -> List[int]:
+def multiply_factor(df : pd.DataFrame, target_column : str, coef:int = 1) -> Union[List[int], List[str]]:
     '''
     Вычисляет коэффициенты увеличения для балансировки классов.
 
@@ -69,18 +75,24 @@ def multiply_factor(df : pd.DataFrame) -> List[int]:
         df: DataFrame с данными
 
     Возвращает:
-        Список целочисленных коэффициентов для увеличения меньших классов.
+        кортеж со списком коэффциентов для баланса классов и список классов для балансировки
 
     Примеры:
-        >>> df = pd.DataFrame({'dx': ['A', 'A', 'B', 'C', 'C', 'C']})
+         list_factor, lbl_list = multiply_factor(df)
+         list_factor -> списком коэффциентов для минорных классов
+         lbl_list -> список классов для балансировки
     '''
     list_factor = []
-    lbl_list = df['dx'].value_counts().to_list()
-    max_lbl_count = max(lbl_list)
-    for i in lbl_list:
-        if i != max_lbl_count:
-            list_factor.append(round(max_lbl_count/i))
-    return list_factor
+    lbl_list = []
+    lbl_val_list = df[target_column].value_counts().values.tolist()
+    max_lbl_count = max(lbl_val_list)
+    for i, v in enumerate(lbl_val_list):
+        if round(max_lbl_count/v) == 1:
+            pass
+        else:
+            list_factor.append(round(max_lbl_count/v/coef))
+            lbl_list.append(df[target_column].value_counts().index.tolist()[i])
+    return list_factor, lbl_list
 
 def tensor_to_img( tensor: Tensor, show: bool = False) -> Union[Image.Image, Tensor]:
     """
@@ -105,7 +117,7 @@ def tensor_to_img( tensor: Tensor, show: bool = False) -> Union[Image.Image, Ten
     image = tensor.permute(1, 2, 0).numpy()
     # Если тензор нормализован, вернем его к диапазону [0, 1]
     image = (image - image.min()) / (image.max() - image.min())
-    if shaw:
+    if show:
         # Отображение изображения
         plt.imshow(image)
         plt.axis('off')  # Отключаем оси
@@ -229,7 +241,7 @@ def mask_circuit(image: Tensor, mask: Tensor, evaluation: bool = False, show: bo
     result = image.clone()
     result[:, edges[0] > 0] = torch.tensor([0.0, 1.0, 0.0]).view(3, 1)
     
-    return tensor_to_img(result, shaw=show)
+    return tensor_to_img(result, show=show)
 
 def iou_dice_score(pred: Tensor, target: Tensor, threshold: float = 0.5, multiclass: bool = False) -> Tuple[Union[float, Tensor], Union[float, Tensor]]:
     '''

@@ -1,0 +1,2050 @@
+image_id,diagnosis,from,dx,cell_type_idx
+ISIC_0063617,melanoma,bcn20000,mel,4
+ISIC_0029125,nevus,original_ham10000,nv,5
+ISIC_0034220,nevus,original_ham10000,nv,5
+ISIC_0063736,basal cell carcinoma,bcn20000,bcc,1
+ISIC_0034067,nevus,original_ham10000,nv,5
+ISIC_2581406,basal cell carcinoma,DERM12345,bcc,1
+ISIC_0030340,nevus,original_ham10000,nv,5
+ISIC_0027184,actinic keratoses,original_ham10000,akiec,0
+ISIC_0064805,basal cell carcinoma,bcn20000,bcc,1
+ISIC_0032821,nevus,original_ham10000,nv,5
+ISIC_0028926,dermatofibroma,original_ham10000,df,3
+ISIC_0066572,basal cell carcinoma,bcn20000,bcc,1
+ISIC_0064099,basal cell carcinoma,bcn20000,bcc,1
+ISIC_0027420,melanoma,original_ham10000,mel,4
+ISIC_0026776,nevus,original_ham10000,nv,5
+ISIC_0070588,melanoma,bcn20000,mel,4
+ISIC_0032616,nevus,original_ham10000,nv,5
+ISIC_0026666,nevus,original_ham10000,nv,5
+ISIC_0025620,nevus,original_ham10000,nv,5
+ISIC_0054140,basal cell carcinoma,bcn20000,bcc,1
+ISIC_0027293,nevus,original_ham10000,nv,5
+ISIC_0062799,basal cell carcinoma,bcn20000,bcc,1
+ISIC_0067529,basal cell carcinoma,bcn20000,bcc,1
+ISIC_0026758,nevus,original_ham10000,nv,5
+ISIC_0056436,melanoma,bcn20000,mel,4
+ISIC_0062970,melanoma,bcn20000,mel,4
+ISIC_0070492,basal cell carcinoma,bcn20000,bcc,1
+ISIC_0065577,melanoma,bcn20000,mel,4
+ISIC_0026884,nevus,original_ham10000,nv,5
+ISIC_0070009,melanoma,bcn20000,mel,4
+ISIC_0027119,nevus,original_ham10000,nv,5
+ISIC_0065469,melanoma,bcn20000,mel,4
+ISIC_4839117,melanoma,DERM12345,mel,4
+ISIC_0031291,nevus,original_ham10000,nv,5
+ISIC_0025367,nevus,original_ham10000,nv,5
+ISIC_0032318,basal cell carcinoma,original_ham10000,bcc,1
+ISIC_0055924,melanoma,bcn20000,mel,4
+ISIC_0030059,nevus,original_ham10000,nv,5
+ISIC_0025451,melanoma,original_ham10000,mel,4
+ISIC_0026858,nevus,original_ham10000,nv,5
+ISIC_0059816,melanoma,bcn20000,mel,4
+ISIC_0066225,melanoma,bcn20000,mel,4
+ISIC_3301933,melanoma,challenge_2020,mel,4
+ISIC_2957732,melanoma,challenge_2020,mel,4
+ISIC_0034833,basal cell carcinoma,challenge_2018_t3_t,bcc,1
+ISIC_0028974,nevus,original_ham10000,nv,5
+ISIC_0065727,melanoma,bcn20000,mel,4
+ISIC_0028764,melanoma,original_ham10000,mel,4
+ISIC_0025618,nevus,original_ham10000,nv,5
+ISIC_0027530,nevus,original_ham10000,nv,5
+ISIC_0068227,melanoma,bcn20000,mel,4
+ISIC_0027852,nevus,original_ham10000,nv,5
+ISIC_1621074,melanoma,challenge_2024,mel,4
+ISIC_0032925,melanoma,original_ham10000,mel,4
+ISIC_0057384,basal cell carcinoma,bcn20000,bcc,1
+ISIC_0066257,basal cell carcinoma,bcn20000,bcc,1
+ISIC_5618408,basal cell carcinoma,DERM12345,bcc,1
+ISIC_0059336,melanoma,bcn20000,mel,4
+ISIC_0033313,nevus,original_ham10000,nv,5
+ISIC_0029429,nevus,original_ham10000,nv,5
+ISIC_0053824,melanoma,bcn20000,mel,4
+ISIC_0024374,nevus,original_ham10000,nv,5
+ISIC_0054200,basal cell carcinoma,bcn20000,bcc,1
+ISIC_5797062,melanoma,challenge_2020,mel,4
+ISIC_0056167,melanoma,bcn20000,mel,4
+ISIC_0032956,nevus,original_ham10000,nv,5
+ISIC_0066164,basal cell carcinoma,bcn20000,bcc,1
+ISIC_0033765,nevus,original_ham10000,nv,5
+ISIC_0061278,melanoma,bcn20000,mel,4
+ISIC_0026339,nevus,original_ham10000,nv,5
+ISIC_0026665,nevus,original_ham10000,nv,5
+ISIC_0033824,nevus,original_ham10000,nv,5
+ISIC_0026258,melanoma,original_ham10000,mel,4
+ISIC_0029179,nevus,original_ham10000,nv,5
+ISIC_0028591,nevus,original_ham10000,nv,5
+ISIC_0031894,nevus,original_ham10000,nv,5
+ISIC_0069230,melanoma,bcn20000,mel,4
+ISIC_0025850,nevus,original_ham10000,nv,5
+ISIC_0000161,melanoma,challenge_2019,mel,4
+ISIC_0056770,melanoma,bcn20000,mel,4
+ISIC_0032666,nevus,original_ham10000,nv,5
+ISIC_0033843,melanoma,original_ham10000,mel,4
+ISIC_0056306,basal cell carcinoma,bcn20000,bcc,1
+ISIC_0030097,nevus,original_ham10000,nv,5
+ISIC_0026206,actinic keratoses,original_ham10000,akiec,0
+ISIC_0033016,nevus,original_ham10000,nv,5
+ISIC_0058787,basal cell carcinoma,bcn20000,bcc,1
+ISIC_0025495,nevus,original_ham10000,nv,5
+ISIC_0031421,actinic keratoses,original_ham10000,akiec,0
+ISIC_0058135,melanoma,bcn20000,mel,4
+ISIC_0030836,nevus,original_ham10000,nv,5
+ISIC_0029471,nevus,original_ham10000,nv,5
+ISIC_0030610,nevus,original_ham10000,nv,5
+ISIC_0069365,melanoma,bcn20000,mel,4
+ISIC_7420584,melanoma,challenge_2024,mel,4
+ISIC_0013652,melanoma,challenge_2019,mel,4
+ISIC_0033876,nevus,original_ham10000,nv,5
+ISIC_9228573,melanoma,challenge_2020,mel,4
+ISIC_0065051,basal cell carcinoma,bcn20000,bcc,1
+ISIC_0025759,nevus,original_ham10000,nv,5
+ISIC_0031833,nevus,original_ham10000,nv,5
+ISIC_0034052,melanoma,original_ham10000,mel,4
+ISIC_0715696,melanoma,DERM12345,mel,4
+ISIC_0033048,nevus,original_ham10000,nv,5
+ISIC_0027308,nevus,original_ham10000,nv,5
+ISIC_0054439,basal cell carcinoma,bcn20000,bcc,1
+ISIC_0025150,nevus,original_ham10000,nv,5
+ISIC_0031198,actinic keratoses,original_ham10000,akiec,0
+ISIC_0065468,melanoma,bcn20000,mel,4
+ISIC_0063271,melanoma,bcn20000,mel,4
+ISIC_0025658,nevus,original_ham10000,nv,5
+ISIC_0068400,basal cell carcinoma,bcn20000,bcc,1
+ISIC_0032095,melanoma,original_ham10000,mel,4
+ISIC_0000519,melanoma,challenge_2019,mel,4
+ISIC_0054060,basal cell carcinoma,bcn20000,bcc,1
+ISIC_0032084,nevus,original_ham10000,nv,5
+ISIC_0025806,nevus,original_ham10000,nv,5
+ISIC_0029240,nevus,original_ham10000,nv,5
+ISIC_0028141,nevus,original_ham10000,nv,5
+ISIC_0034041,nevus,original_ham10000,nv,5
+ISIC_4775986,melanoma,DERM12345,mel,4
+ISIC_5771378,basal cell carcinoma,DERM12345,bcc,1
+ISIC_0024940,melanoma,original_ham10000,mel,4
+ISIC_0060375,melanoma,bcn20000,mel,4
+ISIC_0000176,melanoma,challenge_2019,mel,4
+ISIC_0000299,melanoma,challenge_2019,mel,4
+ISIC_0031367,nevus,original_ham10000,nv,5
+ISIC_0029348,nevus,original_ham10000,nv,5
+ISIC_0030033,nevus,original_ham10000,nv,5
+ISIC_0032880,nevus,original_ham10000,nv,5
+ISIC_0027016,nevus,original_ham10000,nv,5
+ISIC_7037487,dermatofibroma,DERM12345,df,3
+ISIC_0024752,nevus,original_ham10000,nv,5
+ISIC_9870885,melanoma,challenge_2020,mel,4
+ISIC_0064982,melanoma,bcn20000,mel,4
+ISIC_0025616,melanoma,original_ham10000,mel,4
+ISIC_0063793,melanoma,bcn20000,mel,4
+ISIC_0032687,melanoma,original_ham10000,mel,4
+ISIC_0029624,nevus,original_ham10000,nv,5
+ISIC_0026336,vascular lesions,original_ham10000,vasc,6
+ISIC_0027208,nevus,original_ham10000,nv,5
+ISIC_0027774,basal cell carcinoma,original_ham10000,bcc,1
+ISIC_0030704,nevus,original_ham10000,nv,5
+ISIC_0069058,melanoma,bcn20000,mel,4
+ISIC_0072299,melanoma,bcn20000,mel,4
+ISIC_5332092,basal cell carcinoma,DERM12345,bcc,1
+ISIC_0025113,benign keratosis-like lesions,original_ham10000,bkl,2
+ISIC_0027419,benign keratosis-like lesions,original_ham10000,bkl,2
+ISIC_0055174,basal cell carcinoma,bcn20000,bcc,1
+ISIC_0055179,melanoma,bcn20000,mel,4
+ISIC_0026475,melanoma,original_ham10000,mel,4
+ISIC_0027190,melanoma,original_ham10000,mel,4
+ISIC_0072539,basal cell carcinoma,bcn20000,bcc,1
+ISIC_0029410,nevus,original_ham10000,nv,5
+ISIC_0068252,melanoma,bcn20000,mel,4
+ISIC_0033799,nevus,original_ham10000,nv,5
+ISIC_0028237,benign keratosis-like lesions,original_ham10000,bkl,2
+ISIC_0032136,nevus,original_ham10000,nv,5
+ISIC_1822107,melanoma,DERM12345,mel,4
+ISIC_0070105,melanoma,bcn20000,mel,4
+ISIC_2178775,basal cell carcinoma,DERM12345,bcc,1
+ISIC_0030899,nevus,original_ham10000,nv,5
+ISIC_0030815,nevus,original_ham10000,nv,5
+ISIC_0064512,basal cell carcinoma,bcn20000,bcc,1
+ISIC_0054684,basal cell carcinoma,bcn20000,bcc,1
+ISIC_0071827,melanoma,bcn20000,mel,4
+ISIC_0071722,melanoma,bcn20000,mel,4
+ISIC_0024775,nevus,original_ham10000,nv,5
+ISIC_0055862,melanoma,bcn20000,mel,4
+ISIC_0064595,melanoma,bcn20000,mel,4
+ISIC_0027646,nevus,original_ham10000,nv,5
+ISIC_0054819,melanoma,bcn20000,mel,4
+ISIC_0067277,basal cell carcinoma,bcn20000,bcc,1
+ISIC_0064633,melanoma,bcn20000,mel,4
+ISIC_0065345,basal cell carcinoma,bcn20000,bcc,1
+ISIC_0030816,nevus,original_ham10000,nv,5
+ISIC_0056709,basal cell carcinoma,bcn20000,bcc,1
+ISIC_0028559,nevus,original_ham10000,nv,5
+ISIC_0031379,nevus,original_ham10000,nv,5
+ISIC_0028625,nevus,original_ham10000,nv,5
+ISIC_0025826,basal cell carcinoma,original_ham10000,bcc,1
+ISIC_0056995,basal cell carcinoma,bcn20000,bcc,1
+ISIC_0060205,basal cell carcinoma,bcn20000,bcc,1
+ISIC_0058006,basal cell carcinoma,bcn20000,bcc,1
+ISIC_0054070,melanoma,bcn20000,mel,4
+ISIC_8716431,basal cell carcinoma,DERM12345,bcc,1
+ISIC_0068768,melanoma,bcn20000,mel,4
+ISIC_0014883,melanoma,challenge_2019,mel,4
+ISIC_0024910,benign keratosis-like lesions,original_ham10000,bkl,2
+ISIC_0034213,nevus,original_ham10000,nv,5
+ISIC_0026075,nevus,original_ham10000,nv,5
+ISIC_0033199,benign keratosis-like lesions,original_ham10000,bkl,2
+ISIC_0054568,melanoma,bcn20000,mel,4
+ISIC_0028026,melanoma,original_ham10000,mel,4
+ISIC_0028012,nevus,original_ham10000,nv,5
+ISIC_0033337,melanoma,original_ham10000,mel,4
+ISIC_0057791,melanoma,bcn20000,mel,4
+ISIC_0028760,melanoma,original_ham10000,mel,4
+ISIC_0034019,nevus,original_ham10000,nv,5
+ISIC_0057968,melanoma,bcn20000,mel,4
+ISIC_0028239,nevus,original_ham10000,nv,5
+ISIC_0031906,nevus,original_ham10000,nv,5
+ISIC_0054664,melanoma,bcn20000,mel,4
+ISIC_0029246,nevus,original_ham10000,nv,5
+ISIC_0072216,basal cell carcinoma,bcn20000,bcc,1
+ISIC_0030317,nevus,original_ham10000,nv,5
+ISIC_0068112,basal cell carcinoma,bcn20000,bcc,1
+ISIC_9645374,dermatofibroma,DERM12345,df,3
+ISIC_0065218,melanoma,bcn20000,mel,4
+ISIC_0033118,nevus,original_ham10000,nv,5
+ISIC_0034248,nevus,original_ham10000,nv,5
+ISIC_0033862,nevus,original_ham10000,nv,5
+ISIC_0814829,basal cell carcinoma,challenge_2024,bcc,1
+ISIC_4301676,melanoma,DERM12345,mel,4
+ISIC_0029256,nevus,original_ham10000,nv,5
+ISIC_4462326,basal cell carcinoma,DERM12345,bcc,1
+ISIC_0054206,melanoma,bcn20000,mel,4
+ISIC_0027225,nevus,original_ham10000,nv,5
+ISIC_0027892,nevus,original_ham10000,nv,5
+ISIC_0026917,nevus,original_ham10000,nv,5
+ISIC_0033002,nevus,original_ham10000,nv,5
+ISIC_0026568,nevus,original_ham10000,nv,5
+ISIC_0058170,melanoma,bcn20000,mel,4
+ISIC_0030936,nevus,original_ham10000,nv,5
+ISIC_0032709,melanoma,original_ham10000,mel,4
+ISIC_0029181,nevus,original_ham10000,nv,5
+ISIC_0068915,basal cell carcinoma,bcn20000,bcc,1
+ISIC_0031250,nevus,original_ham10000,nv,5
+ISIC_0067699,melanoma,bcn20000,mel,4
+ISIC_0030711,nevus,original_ham10000,nv,5
+ISIC_0069466,melanoma,bcn20000,mel,4
+ISIC_0032205,nevus,original_ham10000,nv,5
+ISIC_0024723,nevus,original_ham10000,nv,5
+ISIC_0064337,melanoma,bcn20000,mel,4
+ISIC_0025936,nevus,original_ham10000,nv,5
+ISIC_0027051,nevus,original_ham10000,nv,5
+ISIC_0033114,melanoma,original_ham10000,mel,4
+ISIC_0059866,melanoma,bcn20000,mel,4
+ISIC_6714082,melanoma,challenge_2020,mel,4
+ISIC_1392555,basal cell carcinoma,DERM12345,bcc,1
+ISIC_0053559,basal cell carcinoma,bcn20000,bcc,1
+ISIC_0033572,nevus,original_ham10000,nv,5
+ISIC_0027253,melanoma,original_ham10000,mel,4
+ISIC_0032302,basal cell carcinoma,original_ham10000,bcc,1
+ISIC_0027440,nevus,original_ham10000,nv,5
+ISIC_0059929,melanoma,bcn20000,mel,4
+ISIC_0057998,basal cell carcinoma,bcn20000,bcc,1
+ISIC_0031133,benign keratosis-like lesions,original_ham10000,bkl,2
+ISIC_0061529,melanoma,bcn20000,mel,4
+ISIC_0055539,basal cell carcinoma,bcn20000,bcc,1
+ISIC_0031436,benign keratosis-like lesions,original_ham10000,bkl,2
+ISIC_0029160,nevus,original_ham10000,nv,5
+ISIC_0031318,basal cell carcinoma,original_ham10000,bcc,1
+ISIC_0066205,basal cell carcinoma,bcn20000,bcc,1
+ISIC_0034998,melanoma,challenge_2018_t3_t,mel,4
+ISIC_0026096,nevus,original_ham10000,nv,5
+ISIC_6488489,melanoma,DERM12345,mel,4
+ISIC_0057152,melanoma,bcn20000,mel,4
+ISIC_0053502,basal cell carcinoma,bcn20000,bcc,1
+ISIC_0055753,basal cell carcinoma,bcn20000,bcc,1
+ISIC_0030349,basal cell carcinoma,original_ham10000,bcc,1
+ISIC_0036026,melanoma,challenge_2018_t3_t,mel,4
+ISIC_0025659,benign keratosis-like lesions,original_ham10000,bkl,2
+ISIC_0067276,melanoma,bcn20000,mel,4
+ISIC_7035246,melanoma,challenge_2020,mel,4
+ISIC_0069915,basal cell carcinoma,bcn20000,bcc,1
+ISIC_0029721,nevus,original_ham10000,nv,5
+ISIC_0029628,nevus,original_ham10000,nv,5
+ISIC_0030234,nevus,original_ham10000,nv,5
+ISIC_0054341,melanoma,bcn20000,mel,4
+ISIC_0060586,melanoma,bcn20000,mel,4
+ISIC_0055940,basal cell carcinoma,bcn20000,bcc,1
+ISIC_0027315,nevus,original_ham10000,nv,5
+ISIC_0072474,basal cell carcinoma,bcn20000,bcc,1
+ISIC_0055289,melanoma,bcn20000,mel,4
+ISIC_0030532,nevus,original_ham10000,nv,5
+ISIC_0057317,melanoma,bcn20000,mel,4
+ISIC_0029450,nevus,original_ham10000,nv,5
+ISIC_0028951,nevus,original_ham10000,nv,5
+ISIC_0026643,basal cell carcinoma,original_ham10000,bcc,1
+ISIC_0030900,nevus,original_ham10000,nv,5
+ISIC_0027359,melanoma,original_ham10000,mel,4
+ISIC_0053693,basal cell carcinoma,bcn20000,bcc,1
+ISIC_0032460,benign keratosis-like lesions,original_ham10000,bkl,2
+ISIC_0031122,basal cell carcinoma,original_ham10000,bcc,1
+ISIC_0058038,basal cell carcinoma,bcn20000,bcc,1
+ISIC_0029354,nevus,original_ham10000,nv,5
+ISIC_0033147,nevus,original_ham10000,nv,5
+ISIC_0063288,melanoma,bcn20000,mel,4
+ISIC_0034354,melanoma,challenge_2019_test,mel,4
+ISIC_0033465,benign keratosis-like lesions,original_ham10000,bkl,2
+ISIC_0054629,melanoma,bcn20000,mel,4
+ISIC_0070138,basal cell carcinoma,bcn20000,bcc,1
+ISIC_0028940,nevus,original_ham10000,nv,5
+ISIC_0059703,melanoma,bcn20000,mel,4
+ISIC_0030841,nevus,original_ham10000,nv,5
+ISIC_0029233,benign keratosis-like lesions,original_ham10000,bkl,2
+ISIC_0054633,basal cell carcinoma,bcn20000,bcc,1
+ISIC_0031980,benign keratosis-like lesions,original_ham10000,bkl,2
+ISIC_0056411,basal cell carcinoma,bcn20000,bcc,1
+ISIC_0033569,melanoma,original_ham10000,mel,4
+ISIC_0031642,melanoma,original_ham10000,mel,4
+ISIC_0027574,nevus,original_ham10000,nv,5
+ISIC_0014129,melanoma,challenge_2019,mel,4
+ISIC_0025504,dermatofibroma,original_ham10000,df,3
+ISIC_0029098,nevus,original_ham10000,nv,5
+ISIC_0029216,melanoma,original_ham10000,mel,4
+ISIC_0057436,melanoma,bcn20000,mel,4
+ISIC_0055405,melanoma,bcn20000,mel,4
+ISIC_0026074,basal cell carcinoma,original_ham10000,bcc,1
+ISIC_0031816,nevus,original_ham10000,nv,5
+ISIC_0057787,melanoma,bcn20000,mel,4
+ISIC_0030652,nevus,original_ham10000,nv,5
+ISIC_0030820,nevus,original_ham10000,nv,5
+ISIC_0028438,nevus,original_ham10000,nv,5
+ISIC_0026014,actinic keratoses,original_ham10000,akiec,0
+ISIC_0024528,nevus,original_ham10000,nv,5
+ISIC_0025053,nevus,original_ham10000,nv,5
+ISIC_7098141,melanoma,challenge_2020,mel,4
+ISIC_0060221,melanoma,bcn20000,mel,4
+ISIC_0070837,melanoma,bcn20000,mel,4
+ISIC_0031072,nevus,original_ham10000,nv,5
+ISIC_0061799,melanoma,bcn20000,mel,4
+ISIC_0029140,nevus,original_ham10000,nv,5
+ISIC_0031656,nevus,original_ham10000,nv,5
+ISIC_0067568,basal cell carcinoma,bcn20000,bcc,1
+ISIC_0059847,basal cell carcinoma,bcn20000,bcc,1
+ISIC_0032334,nevus,original_ham10000,nv,5
+ISIC_0031850,nevus,original_ham10000,nv,5
+ISIC_0030732,nevus,original_ham10000,nv,5
+ISIC_0024341,nevus,original_ham10000,nv,5
+ISIC_0070051,melanoma,bcn20000,mel,4
+ISIC_0027678,actinic keratoses,original_ham10000,akiec,0
+ISIC_0025872,nevus,original_ham10000,nv,5
+ISIC_0070036,basal cell carcinoma,bcn20000,bcc,1
+ISIC_0025188,melanoma,original_ham10000,mel,4
+ISIC_0027131,nevus,original_ham10000,nv,5
+ISIC_0027936,nevus,original_ham10000,nv,5
+ISIC_0033922,nevus,original_ham10000,nv,5
+ISIC_0025646,nevus,original_ham10000,nv,5
+ISIC_0062626,melanoma,bcn20000,mel,4
+ISIC_0026574,basal cell carcinoma,original_ham10000,bcc,1
+ISIC_0060401,basal cell carcinoma,bcn20000,bcc,1
+ISIC_0028342,nevus,original_ham10000,nv,5
+ISIC_0026125,nevus,original_ham10000,nv,5
+ISIC_0057939,melanoma,bcn20000,mel,4
+ISIC_0059079,melanoma,bcn20000,mel,4
+ISIC_0035550,melanoma,challenge_2018_t3_t,mel,4
+ISIC_0062904,basal cell carcinoma,bcn20000,bcc,1
+ISIC_0032421,nevus,original_ham10000,nv,5
+ISIC_0024965,nevus,original_ham10000,nv,5
+ISIC_0053473,melanoma,bcn20000,mel,4
+ISIC_0070666,melanoma,bcn20000,mel,4
+ISIC_0071594,melanoma,bcn20000,mel,4
+ISIC_0066282,basal cell carcinoma,bcn20000,bcc,1
+ISIC_0066344,basal cell carcinoma,bcn20000,bcc,1
+ISIC_0033422,dermatofibroma,original_ham10000,df,3
+ISIC_0033590,nevus,original_ham10000,nv,5
+ISIC_0031460,nevus,original_ham10000,nv,5
+ISIC_0054500,melanoma,bcn20000,mel,4
+ISIC_0065206,melanoma,bcn20000,mel,4
+ISIC_0030788,nevus,original_ham10000,nv,5
+ISIC_0058826,basal cell carcinoma,bcn20000,bcc,1
+ISIC_2090244,basal cell carcinoma,challenge_2024,bcc,1
+ISIC_0061144,basal cell carcinoma,bcn20000,bcc,1
+ISIC_0056893,melanoma,bcn20000,mel,4
+ISIC_0030226,benign keratosis-like lesions,original_ham10000,bkl,2
+ISIC_0062821,melanoma,bcn20000,mel,4
+ISIC_0062158,melanoma,bcn20000,mel,4
+ISIC_0027638,nevus,original_ham10000,nv,5
+ISIC_0028828,nevus,original_ham10000,nv,5
+ISIC_0024755,nevus,original_ham10000,nv,5
+ISIC_0068744,melanoma,bcn20000,mel,4
+ISIC_0029352,basal cell carcinoma,original_ham10000,bcc,1
+ISIC_0013565,melanoma,challenge_2019,mel,4
+ISIC_0033972,nevus,original_ham10000,nv,5
+ISIC_0027784,nevus,original_ham10000,nv,5
+ISIC_0068128,melanoma,bcn20000,mel,4
+ISIC_0058204,melanoma,bcn20000,mel,4
+ISIC_0069553,basal cell carcinoma,bcn20000,bcc,1
+ISIC_0027039,nevus,original_ham10000,nv,5
+ISIC_0064753,basal cell carcinoma,bcn20000,bcc,1
+ISIC_0029920,nevus,original_ham10000,nv,5
+ISIC_0070734,basal cell carcinoma,bcn20000,bcc,1
+ISIC_0067822,basal cell carcinoma,bcn20000,bcc,1
+ISIC_0059294,melanoma,bcn20000,mel,4
+ISIC_0029056,melanoma,original_ham10000,mel,4
+ISIC_0071720,melanoma,bcn20000,mel,4
+ISIC_0033846,nevus,original_ham10000,nv,5
+ISIC_0032604,melanoma,original_ham10000,mel,4
+ISIC_0032521,nevus,original_ham10000,nv,5
+ISIC_0031960,nevus,original_ham10000,nv,5
+ISIC_0024437,nevus,original_ham10000,nv,5
+ISIC_0070757,melanoma,bcn20000,mel,4
+ISIC_0061315,melanoma,bcn20000,mel,4
+ISIC_0060342,melanoma,bcn20000,mel,4
+ISIC_0030939,nevus,original_ham10000,nv,5
+ISIC_0028855,nevus,original_ham10000,nv,5
+ISIC_0010241,melanoma,challenge_2019,mel,4
+ISIC_1541665,melanoma,DERM12345,mel,4
+ISIC_0014221,melanoma,challenge_2019,mel,4
+ISIC_0028423,nevus,original_ham10000,nv,5
+ISIC_0067515,melanoma,bcn20000,mel,4
+ISIC_0060104,melanoma,bcn20000,mel,4
+ISIC_0026208,nevus,original_ham10000,nv,5
+ISIC_8011058,melanoma,challenge_2020,mel,4
+ISIC_0059027,melanoma,bcn20000,mel,4
+ISIC_0058883,basal cell carcinoma,bcn20000,bcc,1
+ISIC_0060184,melanoma,bcn20000,mel,4
+ISIC_1804050,dermatofibroma,DERM12345,df,3
+ISIC_0025900,nevus,original_ham10000,nv,5
+ISIC_0032588,nevus,original_ham10000,nv,5
+ISIC_0032884,nevus,original_ham10000,nv,5
+ISIC_0027748,nevus,original_ham10000,nv,5
+ISIC_0057164,melanoma,bcn20000,mel,4
+ISIC_2515618,melanoma,DERM12345,mel,4
+ISIC_1071408,basal cell carcinoma,challenge_2024,bcc,1
+ISIC_0032238,actinic keratoses,original_ham10000,akiec,0
+ISIC_0031598,melanoma,original_ham10000,mel,4
+ISIC_0025859,nevus,original_ham10000,nv,5
+ISIC_0026069,benign keratosis-like lesions,original_ham10000,bkl,2
+ISIC_0066124,melanoma,bcn20000,mel,4
+ISIC_0059591,basal cell carcinoma,bcn20000,bcc,1
+ISIC_0029456,nevus,original_ham10000,nv,5
+ISIC_0067170,melanoma,bcn20000,mel,4
+ISIC_0059730,basal cell carcinoma,bcn20000,bcc,1
+ISIC_0027182,nevus,original_ham10000,nv,5
+ISIC_0062085,melanoma,bcn20000,mel,4
+ISIC_0055005,basal cell carcinoma,bcn20000,bcc,1
+ISIC_0028278,nevus,original_ham10000,nv,5
+ISIC_0026121,nevus,original_ham10000,nv,5
+ISIC_0058021,melanoma,bcn20000,mel,4
+ISIC_0029971,nevus,original_ham10000,nv,5
+ISIC_0025242,nevus,original_ham10000,nv,5
+ISIC_0072619,melanoma,bcn20000,mel,4
+ISIC_0059453,basal cell carcinoma,bcn20000,bcc,1
+ISIC_0029859,melanoma,original_ham10000,mel,4
+ISIC_0032963,benign keratosis-like lesions,original_ham10000,bkl,2
+ISIC_0062664,basal cell carcinoma,bcn20000,bcc,1
+ISIC_0025960,nevus,original_ham10000,nv,5
+ISIC_0056730,basal cell carcinoma,bcn20000,bcc,1
+ISIC_0066766,melanoma,bcn20000,mel,4
+ISIC_0054787,melanoma,bcn20000,mel,4
+ISIC_0070378,basal cell carcinoma,bcn20000,bcc,1
+ISIC_0063452,basal cell carcinoma,bcn20000,bcc,1
+ISIC_0031296,nevus,original_ham10000,nv,5
+ISIC_0024474,nevus,original_ham10000,nv,5
+ISIC_0027344,benign keratosis-like lesions,original_ham10000,bkl,2
+ISIC_0029835,nevus,original_ham10000,nv,5
+ISIC_0026181,nevus,original_ham10000,nv,5
+ISIC_0055707,melanoma,bcn20000,mel,4
+ISIC_0032188,nevus,original_ham10000,nv,5
+ISIC_0029232,benign keratosis-like lesions,original_ham10000,bkl,2
+ISIC_9360322,melanoma,challenge_2024,mel,4
+ISIC_0066478,basal cell carcinoma,bcn20000,bcc,1
+ISIC_0031537,benign keratosis-like lesions,original_ham10000,bkl,2
+ISIC_0061100,basal cell carcinoma,bcn20000,bcc,1
+ISIC_0058407,melanoma,bcn20000,mel,4
+ISIC_0073194,melanoma,bcn20000,mel,4
+ISIC_0032253,nevus,original_ham10000,nv,5
+ISIC_0027029,nevus,original_ham10000,nv,5
+ISIC_0024421,nevus,original_ham10000,nv,5
+ISIC_0055314,melanoma,bcn20000,mel,4
+ISIC_0025308,nevus,original_ham10000,nv,5
+ISIC_0070561,melanoma,bcn20000,mel,4
+ISIC_0029416,nevus,original_ham10000,nv,5
+ISIC_0032159,benign keratosis-like lesions,original_ham10000,bkl,2
+ISIC_0025190,nevus,original_ham10000,nv,5
+ISIC_0064863,melanoma,bcn20000,mel,4
+ISIC_0072857,basal cell carcinoma,bcn20000,bcc,1
+ISIC_0055137,basal cell carcinoma,bcn20000,bcc,1
+ISIC_0070701,basal cell carcinoma,bcn20000,bcc,1
+ISIC_0070235,melanoma,bcn20000,mel,4
+ISIC_0029409,nevus,original_ham10000,nv,5
+ISIC_0025731,basal cell carcinoma,original_ham10000,bcc,1
+ISIC_0014518,melanoma,challenge_2019,mel,4
+ISIC_0068011,melanoma,bcn20000,mel,4
+ISIC_0065488,melanoma,bcn20000,mel,4
+ISIC_5454890,melanoma,DERM12345,mel,4
+ISIC_0053542,melanoma,bcn20000,mel,4
+ISIC_0027751,nevus,original_ham10000,nv,5
+ISIC_0032175,nevus,original_ham10000,nv,5
+ISIC_0059989,basal cell carcinoma,bcn20000,bcc,1
+ISIC_0027445,nevus,original_ham10000,nv,5
+ISIC_0072759,basal cell carcinoma,bcn20000,bcc,1
+ISIC_0013672,melanoma,challenge_2019,mel,4
+ISIC_0072990,melanoma,bcn20000,mel,4
+ISIC_0028569,nevus,original_ham10000,nv,5
+ISIC_0062625,basal cell carcinoma,bcn20000,bcc,1
+ISIC_0028727,nevus,original_ham10000,nv,5
+ISIC_0064885,basal cell carcinoma,bcn20000,bcc,1
+ISIC_0061220,basal cell carcinoma,bcn20000,bcc,1
+ISIC_0034221,benign keratosis-like lesions,original_ham10000,bkl,2
+ISIC_0070822,melanoma,bcn20000,mel,4
+ISIC_0070453,basal cell carcinoma,bcn20000,bcc,1
+ISIC_5653455,basal cell carcinoma,DERM12345,bcc,1
+ISIC_0031625,nevus,original_ham10000,nv,5
+ISIC_0069076,melanoma,bcn20000,mel,4
+ISIC_0032208,nevus,original_ham10000,nv,5
+ISIC_0060355,melanoma,bcn20000,mel,4
+ISIC_0029779,basal cell carcinoma,original_ham10000,bcc,1
+ISIC_0066379,melanoma,bcn20000,mel,4
+ISIC_0032497,basal cell carcinoma,original_ham10000,bcc,1
+ISIC_0055742,melanoma,bcn20000,mel,4
+ISIC_0070992,melanoma,bcn20000,mel,4
+ISIC_0025831,actinic keratoses,original_ham10000,akiec,0
+ISIC_0058473,basal cell carcinoma,bcn20000,bcc,1
+ISIC_0013953,melanoma,challenge_2019,mel,4
+ISIC_0058008,basal cell carcinoma,bcn20000,bcc,1
+ISIC_0058580,melanoma,bcn20000,mel,4
+ISIC_0026403,nevus,original_ham10000,nv,5
+ISIC_0073007,melanoma,bcn20000,mel,4
+ISIC_0063286,basal cell carcinoma,bcn20000,bcc,1
+ISIC_0031747,nevus,original_ham10000,nv,5
+ISIC_0013828,melanoma,challenge_2019,mel,4
+ISIC_0027121,nevus,original_ham10000,nv,5
+ISIC_0055303,basal cell carcinoma,bcn20000,bcc,1
+ISIC_0033948,nevus,original_ham10000,nv,5
+ISIC_0034895,melanoma,challenge_2018_t3_t,mel,4
+ISIC_0026661,benign keratosis-like lesions,original_ham10000,bkl,2
+ISIC_0025207,nevus,original_ham10000,nv,5
+ISIC_0061819,basal cell carcinoma,bcn20000,bcc,1
+ISIC_0034119,basal cell carcinoma,original_ham10000,bcc,1
+ISIC_2408815,melanoma,challenge_2020,mel,4
+ISIC_0025119,nevus,original_ham10000,nv,5
+ISIC_0057196,melanoma,bcn20000,mel,4
+ISIC_0067006,melanoma,bcn20000,mel,4
+ISIC_0067706,basal cell carcinoma,bcn20000,bcc,1
+ISIC_0060201,melanoma,bcn20000,mel,4
+ISIC_0061045,melanoma,bcn20000,mel,4
+ISIC_0026868,melanoma,original_ham10000,mel,4
+ISIC_0027745,dermatofibroma,original_ham10000,df,3
+ISIC_5037784,melanoma,challenge_2020,mel,4
+ISIC_7009373,basal cell carcinoma,DERM12345,bcc,1
+ISIC_0064517,melanoma,bcn20000,mel,4
+ISIC_0060214,basal cell carcinoma,bcn20000,bcc,1
+ISIC_0025204,nevus,original_ham10000,nv,5
+ISIC_0026974,nevus,original_ham10000,nv,5
+ISIC_0029124,nevus,original_ham10000,nv,5
+ISIC_0032358,benign keratosis-like lesions,original_ham10000,bkl,2
+ISIC_0057279,basal cell carcinoma,bcn20000,bcc,1
+ISIC_0061034,melanoma,bcn20000,mel,4
+ISIC_0054253,basal cell carcinoma,bcn20000,bcc,1
+ISIC_0060309,basal cell carcinoma,bcn20000,bcc,1
+ISIC_0064592,melanoma,bcn20000,mel,4
+ISIC_0030566,nevus,original_ham10000,nv,5
+ISIC_0062152,melanoma,bcn20000,mel,4
+ISIC_0012208,melanoma,challenge_2019,mel,4
+ISIC_0027025,benign keratosis-like lesions,original_ham10000,bkl,2
+ISIC_0063680,melanoma,bcn20000,mel,4
+ISIC_0063405,basal cell carcinoma,bcn20000,bcc,1
+ISIC_0031779,melanoma,original_ham10000,mel,4
+ISIC_0067845,melanoma,bcn20000,mel,4
+ISIC_0054236,melanoma,bcn20000,mel,4
+ISIC_0034219,nevus,original_ham10000,nv,5
+ISIC_0027984,nevus,original_ham10000,nv,5
+ISIC_0032312,nevus,original_ham10000,nv,5
+ISIC_0070541,basal cell carcinoma,bcn20000,bcc,1
+ISIC_0025376,benign keratosis-like lesions,original_ham10000,bkl,2
+ISIC_0027682,nevus,original_ham10000,nv,5
+ISIC_0026195,nevus,original_ham10000,nv,5
+ISIC_0033203,basal cell carcinoma,original_ham10000,bcc,1
+ISIC_3951556,basal cell carcinoma,DERM12345,bcc,1
+ISIC_0057751,basal cell carcinoma,bcn20000,bcc,1
+ISIC_0065483,basal cell carcinoma,bcn20000,bcc,1
+ISIC_0061001,melanoma,bcn20000,mel,4
+ISIC_4868339,melanoma,DERM12345,mel,4
+ISIC_0069481,melanoma,bcn20000,mel,4
+ISIC_0025144,basal cell carcinoma,original_ham10000,bcc,1
+ISIC_0028841,nevus,original_ham10000,nv,5
+ISIC_0029814,nevus,original_ham10000,nv,5
+ISIC_0061440,basal cell carcinoma,bcn20000,bcc,1
+ISIC_0024490,benign keratosis-like lesions,original_ham10000,bkl,2
+ISIC_0062956,basal cell carcinoma,bcn20000,bcc,1
+ISIC_4565977,basal cell carcinoma,DERM12345,bcc,1
+ISIC_1192769,melanoma,DERM12345,mel,4
+ISIC_0057343,basal cell carcinoma,bcn20000,bcc,1
+ISIC_0031179,nevus,original_ham10000,nv,5
+ISIC_0033789,nevus,original_ham10000,nv,5
+ISIC_0024926,nevus,original_ham10000,nv,5
+ISIC_0030348,nevus,original_ham10000,nv,5
+ISIC_0031522,benign keratosis-like lesions,original_ham10000,bkl,2
+ISIC_0067105,basal cell carcinoma,bcn20000,bcc,1
+ISIC_0032854,actinic keratoses,original_ham10000,akiec,0
+ISIC_0025444,nevus,original_ham10000,nv,5
+ISIC_0025073,nevus,original_ham10000,nv,5
+ISIC_0054220,melanoma,bcn20000,mel,4
+ISIC_0024859,nevus,original_ham10000,nv,5
+ISIC_0026063,nevus,original_ham10000,nv,5
+ISIC_5987936,melanoma,challenge_2024,mel,4
+ISIC_0054904,melanoma,bcn20000,mel,4
+ISIC_0026953,nevus,original_ham10000,nv,5
+ISIC_0063349,melanoma,bcn20000,mel,4
+ISIC_0033906,nevus,original_ham10000,nv,5
+ISIC_0053777,melanoma,bcn20000,mel,4
+ISIC_0033702,nevus,original_ham10000,nv,5
+ISIC_0033797,nevus,original_ham10000,nv,5
+ISIC_0067857,melanoma,bcn20000,mel,4
+ISIC_0057574,basal cell carcinoma,bcn20000,bcc,1
+ISIC_0033853,benign keratosis-like lesions,original_ham10000,bkl,2
+ISIC_0024833,basal cell carcinoma,original_ham10000,bcc,1
+ISIC_0033255,nevus,original_ham10000,nv,5
+ISIC_0031647,nevus,original_ham10000,nv,5
+ISIC_0024905,nevus,original_ham10000,nv,5
+ISIC_0027027,benign keratosis-like lesions,original_ham10000,bkl,2
+ISIC_0030334,nevus,original_ham10000,nv,5
+ISIC_0025811,actinic keratoses,original_ham10000,akiec,0
+ISIC_0067780,basal cell carcinoma,bcn20000,bcc,1
+ISIC_0031890,melanoma,original_ham10000,mel,4
+ISIC_0060119,basal cell carcinoma,bcn20000,bcc,1
+ISIC_0069098,melanoma,bcn20000,mel,4
+ISIC_0028782,nevus,original_ham10000,nv,5
+ISIC_7488074,dermatofibroma,challenge_2024,df,3
+ISIC_0024368,nevus,original_ham10000,nv,5
+ISIC_0025794,nevus,original_ham10000,nv,5
+ISIC_1630301,melanoma,challenge_2020,mel,4
+ISIC_0028788,nevus,original_ham10000,nv,5
+ISIC_6203356,basal cell carcinoma,DERM12345,bcc,1
+ISIC_0066029,basal cell carcinoma,bcn20000,bcc,1
+ISIC_0032534,benign keratosis-like lesions,original_ham10000,bkl,2
+ISIC_0028250,nevus,original_ham10000,nv,5
+ISIC_0056136,melanoma,bcn20000,mel,4
+ISIC_0028535,nevus,original_ham10000,nv,5
+ISIC_0054807,basal cell carcinoma,bcn20000,bcc,1
+ISIC_0028813,nevus,original_ham10000,nv,5
+ISIC_8389499,dermatofibroma,DERM12345,df,3
+ISIC_0030094,basal cell carcinoma,original_ham10000,bcc,1
+ISIC_0028787,nevus,original_ham10000,nv,5
+ISIC_0024644,melanoma,original_ham10000,mel,4
+ISIC_0026744,benign keratosis-like lesions,original_ham10000,bkl,2
+ISIC_0067975,basal cell carcinoma,bcn20000,bcc,1
+ISIC_0066657,basal cell carcinoma,bcn20000,bcc,1
+ISIC_0030052,nevus,original_ham10000,nv,5
+ISIC_0057532,melanoma,bcn20000,mel,4
+ISIC_0026514,benign keratosis-like lesions,original_ham10000,bkl,2
+ISIC_0056027,basal cell carcinoma,bcn20000,bcc,1
+ISIC_0060740,basal cell carcinoma,bcn20000,bcc,1
+ISIC_0071751,basal cell carcinoma,bcn20000,bcc,1
+ISIC_0056303,melanoma,bcn20000,mel,4
+ISIC_5747942,melanoma,challenge_2020,mel,4
+ISIC_0027732,nevus,original_ham10000,nv,5
+ISIC_0028775,nevus,original_ham10000,nv,5
+ISIC_0030505,nevus,original_ham10000,nv,5
+ISIC_0067380,basal cell carcinoma,bcn20000,bcc,1
+ISIC_0072023,basal cell carcinoma,bcn20000,bcc,1
+ISIC_0055519,melanoma,bcn20000,mel,4
+ISIC_0027156,nevus,original_ham10000,nv,5
+ISIC_0068730,melanoma,bcn20000,mel,4
+ISIC_0027918,nevus,original_ham10000,nv,5
+ISIC_0026730,nevus,original_ham10000,nv,5
+ISIC_0069104,basal cell carcinoma,bcn20000,bcc,1
+ISIC_0029294,nevus,original_ham10000,nv,5
+ISIC_0056749,melanoma,bcn20000,mel,4
+ISIC_0033768,nevus,original_ham10000,nv,5
+ISIC_1190215,basal cell carcinoma,DERM12345,bcc,1
+ISIC_0029983,nevus,original_ham10000,nv,5
+ISIC_0067956,basal cell carcinoma,bcn20000,bcc,1
+ISIC_0059138,melanoma,bcn20000,mel,4
+ISIC_0027406,nevus,original_ham10000,nv,5
+ISIC_0055380,melanoma,bcn20000,mel,4
+ISIC_0060284,melanoma,bcn20000,mel,4
+ISIC_0060425,basal cell carcinoma,bcn20000,bcc,1
+ISIC_0026954,melanoma,original_ham10000,mel,4
+ISIC_0056335,basal cell carcinoma,bcn20000,bcc,1
+ISIC_0061355,melanoma,bcn20000,mel,4
+ISIC_0032110,melanoma,original_ham10000,mel,4
+ISIC_0032898,benign keratosis-like lesions,original_ham10000,bkl,2
+ISIC_0061029,melanoma,bcn20000,mel,4
+ISIC_0066598,basal cell carcinoma,bcn20000,bcc,1
+ISIC_0025216,nevus,original_ham10000,nv,5
+ISIC_0056483,melanoma,bcn20000,mel,4
+ISIC_0024884,nevus,original_ham10000,nv,5
+ISIC_0030776,nevus,original_ham10000,nv,5
+ISIC_0061626,melanoma,bcn20000,mel,4
+ISIC_0029878,benign keratosis-like lesions,original_ham10000,bkl,2
+ISIC_0027126,melanoma,original_ham10000,mel,4
+ISIC_2033237,melanoma,challenge_2020,mel,4
+ISIC_0031987,benign keratosis-like lesions,original_ham10000,bkl,2
+ISIC_0011095,melanoma,challenge_2019,mel,4
+ISIC_0030357,nevus,original_ham10000,nv,5
+ISIC_0059599,basal cell carcinoma,bcn20000,bcc,1
+ISIC_0032502,nevus,original_ham10000,nv,5
+ISIC_5642824,melanoma,challenge_2020,mel,4
+ISIC_4065813,basal cell carcinoma,DERM12345,bcc,1
+ISIC_0013321,melanoma,challenge_2019,mel,4
+ISIC_0031886,nevus,original_ham10000,nv,5
+ISIC_0026409,benign keratosis-like lesions,original_ham10000,bkl,2
+ISIC_0057554,melanoma,bcn20000,mel,4
+ISIC_0031584,benign keratosis-like lesions,original_ham10000,bkl,2
+ISIC_0064439,basal cell carcinoma,bcn20000,bcc,1
+ISIC_1612133,dermatofibroma,DERM12345,df,3
+ISIC_0035913,melanoma,challenge_2018_t3_t,mel,4
+ISIC_0032016,nevus,original_ham10000,nv,5
+ISIC_0055313,basal cell carcinoma,bcn20000,bcc,1
+ISIC_0033977,melanoma,original_ham10000,mel,4
+ISIC_0034344,basal cell carcinoma,challenge_2019_test,bcc,1
+ISIC_0035658,basal cell carcinoma,challenge_2018_t3_t,bcc,1
+ISIC_0025827,nevus,original_ham10000,nv,5
+ISIC_0024550,basal cell carcinoma,original_ham10000,bcc,1
+ISIC_0024565,nevus,original_ham10000,nv,5
+ISIC_0025822,nevus,original_ham10000,nv,5
+ISIC_0030778,basal cell carcinoma,original_ham10000,bcc,1
+ISIC_0000172,melanoma,challenge_2019,mel,4
+ISIC_0061866,basal cell carcinoma,bcn20000,bcc,1
+ISIC_0030450,nevus,original_ham10000,nv,5
+ISIC_0024391,nevus,original_ham10000,nv,5
+ISIC_0012715,melanoma,challenge_2019,mel,4
+ISIC_0033620,benign keratosis-like lesions,original_ham10000,bkl,2
+ISIC_0031329,benign keratosis-like lesions,original_ham10000,bkl,2
+ISIC_0025167,nevus,original_ham10000,nv,5
+ISIC_0070888,melanoma,bcn20000,mel,4
+ISIC_0063950,melanoma,bcn20000,mel,4
+ISIC_0031772,nevus,original_ham10000,nv,5
+ISIC_0069715,basal cell carcinoma,bcn20000,bcc,1
+ISIC_9595781,dermatofibroma,DERM12345,df,3
+ISIC_0032921,melanoma,original_ham10000,mel,4
+ISIC_0059105,basal cell carcinoma,bcn20000,bcc,1
+ISIC_0064158,basal cell carcinoma,bcn20000,bcc,1
+ISIC_0066094,melanoma,bcn20000,mel,4
+ISIC_0062250,basal cell carcinoma,bcn20000,bcc,1
+ISIC_0026576,benign keratosis-like lesions,original_ham10000,bkl,2
+ISIC_2724529,melanoma,challenge_2020,mel,4
+ISIC_0061475,melanoma,bcn20000,mel,4
+ISIC_0067253,melanoma,bcn20000,mel,4
+ISIC_0031105,nevus,original_ham10000,nv,5
+ISIC_0072241,melanoma,bcn20000,mel,4
+ISIC_0035876,basal cell carcinoma,challenge_2018_t3_t,bcc,1
+ISIC_0030280,actinic keratoses,original_ham10000,akiec,0
+ISIC_0031982,nevus,original_ham10000,nv,5
+ISIC_0029523,nevus,original_ham10000,nv,5
+ISIC_0063614,basal cell carcinoma,bcn20000,bcc,1
+ISIC_0062874,basal cell carcinoma,bcn20000,bcc,1
+ISIC_0026053,nevus,original_ham10000,nv,5
+ISIC_0026252,nevus,original_ham10000,nv,5
+ISIC_0031881,nevus,original_ham10000,nv,5
+ISIC_0062219,basal cell carcinoma,bcn20000,bcc,1
+ISIC_0025641,nevus,original_ham10000,nv,5
+ISIC_0025128,melanoma,original_ham10000,mel,4
+ISIC_4857903,dermatofibroma,DERM12345,df,3
+ISIC_0068383,melanoma,bcn20000,mel,4
+ISIC_0027600,nevus,original_ham10000,nv,5
+ISIC_0061481,basal cell carcinoma,bcn20000,bcc,1
+ISIC_0027738,nevus,original_ham10000,nv,5
+ISIC_0055175,melanoma,bcn20000,mel,4
+ISIC_0062423,melanoma,bcn20000,mel,4
+ISIC_0032013,benign keratosis-like lesions,original_ham10000,bkl,2
+ISIC_0060007,basal cell carcinoma,bcn20000,bcc,1
+ISIC_0027280,nevus,original_ham10000,nv,5
+ISIC_0028095,basal cell carcinoma,original_ham10000,bcc,1
+ISIC_0058911,basal cell carcinoma,bcn20000,bcc,1
+ISIC_0031851,benign keratosis-like lesions,original_ham10000,bkl,2
+ISIC_0028745,nevus,original_ham10000,nv,5
+ISIC_0066182,melanoma,bcn20000,mel,4
+ISIC_0057947,melanoma,bcn20000,mel,4
+ISIC_0028149,nevus,original_ham10000,nv,5
+ISIC_0055051,melanoma,bcn20000,mel,4
+ISIC_0028371,nevus,original_ham10000,nv,5
+ISIC_0033097,nevus,original_ham10000,nv,5
+ISIC_0028330,nevus,original_ham10000,nv,5
+ISIC_0071245,melanoma,bcn20000,mel,4
+ISIC_0070248,melanoma,bcn20000,mel,4
+ISIC_0054802,melanoma,bcn20000,mel,4
+ISIC_0065031,basal cell carcinoma,bcn20000,bcc,1
+ISIC_7160492,dermatofibroma,DERM12345,df,3
+ISIC_0030826,actinic keratoses,original_ham10000,akiec,0
+ISIC_0034217,nevus,original_ham10000,nv,5
+ISIC_0027999,nevus,original_ham10000,nv,5
+ISIC_0027829,actinic keratoses,original_ham10000,akiec,0
+ISIC_8225781,melanoma,DERM12345,mel,4
+ISIC_0033790,dermatofibroma,original_ham10000,df,3
+ISIC_0059984,basal cell carcinoma,bcn20000,bcc,1
+ISIC_0028545,nevus,original_ham10000,nv,5
+ISIC_0029259,nevus,original_ham10000,nv,5
+ISIC_0057615,melanoma,bcn20000,mel,4
+ISIC_9735344,melanoma,challenge_2024,mel,4
+ISIC_0059273,melanoma,bcn20000,mel,4
+ISIC_3558063,dermatofibroma,DERM12345,df,3
+ISIC_0032281,nevus,original_ham10000,nv,5
+ISIC_0054413,basal cell carcinoma,bcn20000,bcc,1
+ISIC_0063050,basal cell carcinoma,bcn20000,bcc,1
+ISIC_0072454,melanoma,bcn20000,mel,4
+ISIC_0053923,melanoma,bcn20000,mel,4
+ISIC_0032735,nevus,original_ham10000,nv,5
+ISIC_2538516,basal cell carcinoma,challenge_2024,bcc,1
+ISIC_0062463,melanoma,bcn20000,mel,4
+ISIC_0032446,nevus,original_ham10000,nv,5
+ISIC_0030898,melanoma,original_ham10000,mel,4
+ISIC_0030792,nevus,original_ham10000,nv,5
+ISIC_0025613,nevus,original_ham10000,nv,5
+ISIC_0068746,basal cell carcinoma,bcn20000,bcc,1
+ISIC_0064311,melanoma,bcn20000,mel,4
+ISIC_0055130,basal cell carcinoma,bcn20000,bcc,1
+ISIC_0028507,nevus,original_ham10000,nv,5
+ISIC_0028434,nevus,original_ham10000,nv,5
+ISIC_0072495,melanoma,bcn20000,mel,4
+ISIC_0054063,basal cell carcinoma,bcn20000,bcc,1
+ISIC_0064784,melanoma,bcn20000,mel,4
+ISIC_0062530,melanoma,bcn20000,mel,4
+ISIC_0059977,basal cell carcinoma,bcn20000,bcc,1
+ISIC_0067968,basal cell carcinoma,bcn20000,bcc,1
+ISIC_0027047,actinic keratoses,original_ham10000,akiec,0
+ISIC_0026557,nevus,original_ham10000,nv,5
+ISIC_0030069,nevus,original_ham10000,nv,5
+ISIC_0027624,nevus,original_ham10000,nv,5
+ISIC_2720971,melanoma,challenge_2020,mel,4
+ISIC_0025882,nevus,original_ham10000,nv,5
+ISIC_0033526,melanoma,original_ham10000,mel,4
+ISIC_0029834,nevus,original_ham10000,nv,5
+ISIC_0066423,melanoma,bcn20000,mel,4
+ISIC_0000434,melanoma,challenge_2019,mel,4
+ISIC_0068639,basal cell carcinoma,bcn20000,bcc,1
+ISIC_0032557,vascular lesions,original_ham10000,vasc,6
+ISIC_0065386,basal cell carcinoma,bcn20000,bcc,1
+ISIC_0027800,nevus,original_ham10000,nv,5
+ISIC_0056671,basal cell carcinoma,bcn20000,bcc,1
+ISIC_0028537,melanoma,original_ham10000,mel,4
+ISIC_0053740,melanoma,bcn20000,mel,4
+ISIC_0055193,melanoma,bcn20000,mel,4
+ISIC_0060903,basal cell carcinoma,bcn20000,bcc,1
+ISIC_0026597,nevus,original_ham10000,nv,5
+ISIC_4936662,melanoma,challenge_2020,mel,4
+ISIC_0031591,benign keratosis-like lesions,original_ham10000,bkl,2
+ISIC_0058128,basal cell carcinoma,bcn20000,bcc,1
+ISIC_0027365,basal cell carcinoma,original_ham10000,bcc,1
+ISIC_0030852,nevus,original_ham10000,nv,5
+ISIC_0029758,nevus,original_ham10000,nv,5
+ISIC_0029658,nevus,original_ham10000,nv,5
+ISIC_0070199,basal cell carcinoma,bcn20000,bcc,1
+ISIC_0072531,melanoma,bcn20000,mel,4
+ISIC_0059486,melanoma,bcn20000,mel,4
+ISIC_0024557,nevus,original_ham10000,nv,5
+ISIC_0034103,benign keratosis-like lesions,original_ham10000,bkl,2
+ISIC_0025836,nevus,original_ham10000,nv,5
+ISIC_0065408,melanoma,bcn20000,mel,4
+ISIC_0030599,nevus,original_ham10000,nv,5
+ISIC_0029466,basal cell carcinoma,original_ham10000,bcc,1
+ISIC_0029659,actinic keratoses,original_ham10000,akiec,0
+ISIC_0066106,melanoma,bcn20000,mel,4
+ISIC_0062163,melanoma,bcn20000,mel,4
+ISIC_0028593,benign keratosis-like lesions,original_ham10000,bkl,2
+ISIC_0028947,nevus,original_ham10000,nv,5
+ISIC_0067572,basal cell carcinoma,bcn20000,bcc,1
+ISIC_0060750,basal cell carcinoma,bcn20000,bcc,1
+ISIC_0054038,melanoma,bcn20000,mel,4
+ISIC_0028858,basal cell carcinoma,original_ham10000,bcc,1
+ISIC_9078874,melanoma,challenge_2024,mel,4
+ISIC_0057009,melanoma,bcn20000,mel,4
+ISIC_0024314,nevus,original_ham10000,nv,5
+ISIC_0071418,dermatofibroma,bcn20000,df,3
+ISIC_0066759,basal cell carcinoma,bcn20000,bcc,1
+ISIC_0033027,melanoma,original_ham10000,mel,4
+ISIC_0067160,melanoma,bcn20000,mel,4
+ISIC_0058098,melanoma,bcn20000,mel,4
+ISIC_0028188,vascular lesions,original_ham10000,vasc,6
+ISIC_0025680,vascular lesions,original_ham10000,vasc,6
+ISIC_0065147,basal cell carcinoma,bcn20000,bcc,1
+ISIC_0067791,melanoma,bcn20000,mel,4
+ISIC_0070074,melanoma,bcn20000,mel,4
+ISIC_0013813,melanoma,challenge_2019,mel,4
+ISIC_0064051,basal cell carcinoma,bcn20000,bcc,1
+ISIC_0151466,melanoma,DERM12345,mel,4
+ISIC_0028810,nevus,original_ham10000,nv,5
+ISIC_0031662,nevus,original_ham10000,nv,5
+ISIC_0026547,nevus,original_ham10000,nv,5
+ISIC_0059052,melanoma,bcn20000,mel,4
+ISIC_0059145,basal cell carcinoma,bcn20000,bcc,1
+ISIC_0032535,melanoma,original_ham10000,mel,4
+ISIC_0060898,melanoma,bcn20000,mel,4
+ISIC_0057937,basal cell carcinoma,bcn20000,bcc,1
+ISIC_0031578,actinic keratoses,original_ham10000,akiec,0
+ISIC_0069668,melanoma,bcn20000,mel,4
+ISIC_8157654,melanoma,challenge_2020,mel,4
+ISIC_0029468,nevus,original_ham10000,nv,5
+ISIC_0026247,melanoma,original_ham10000,mel,4
+ISIC_9593940,melanoma,challenge_2020,mel,4
+ISIC_0031785,nevus,original_ham10000,nv,5
+ISIC_0058858,melanoma,bcn20000,mel,4
+ISIC_8167374,melanoma,challenge_2020,mel,4
+ISIC_7079349,melanoma,challenge_2020,mel,4
+ISIC_0065908,basal cell carcinoma,bcn20000,bcc,1
+ISIC_9958625,basal cell carcinoma,DERM12345,bcc,1
+ISIC_0061909,basal cell carcinoma,bcn20000,bcc,1
+ISIC_0001133,melanoma,challenge_2019,mel,4
+ISIC_0030282,nevus,original_ham10000,nv,5
+ISIC_0025874,benign keratosis-like lesions,original_ham10000,bkl,2
+ISIC_0025975,basal cell carcinoma,original_ham10000,bcc,1
+ISIC_0053555,melanoma,bcn20000,mel,4
+ISIC_6634951,melanoma,challenge_2020,mel,4
+ISIC_0025333,nevus,original_ham10000,nv,5
+ISIC_0067782,melanoma,bcn20000,mel,4
+ISIC_0025267,nevus,original_ham10000,nv,5
+ISIC_0065215,melanoma,bcn20000,mel,4
+ISIC_0029723,nevus,original_ham10000,nv,5
+ISIC_0029798,nevus,original_ham10000,nv,5
+ISIC_0033588,nevus,original_ham10000,nv,5
+ISIC_0067549,melanoma,bcn20000,mel,4
+ISIC_0067055,basal cell carcinoma,bcn20000,bcc,1
+ISIC_0033779,melanoma,original_ham10000,mel,4
+ISIC_0026949,nevus,original_ham10000,nv,5
+ISIC_0060789,basal cell carcinoma,bcn20000,bcc,1
+ISIC_0034201,benign keratosis-like lesions,original_ham10000,bkl,2
+ISIC_0055282,melanoma,bcn20000,mel,4
+ISIC_0031822,nevus,original_ham10000,nv,5
+ISIC_0026087,nevus,original_ham10000,nv,5
+ISIC_0034171,nevus,original_ham10000,nv,5
+ISIC_0025691,basal cell carcinoma,original_ham10000,bcc,1
+ISIC_0000149,melanoma,challenge_2019,mel,4
+ISIC_4842587,melanoma,challenge_2020,mel,4
+ISIC_0030678,nevus,original_ham10000,nv,5
+ISIC_0025471,actinic keratoses,original_ham10000,akiec,0
+ISIC_0035636,melanoma,challenge_2018_t3_t,mel,4
+ISIC_0031567,nevus,original_ham10000,nv,5
+ISIC_0025416,nevus,original_ham10000,nv,5
+ISIC_0072201,basal cell carcinoma,bcn20000,bcc,1
+ISIC_0031310,melanoma,original_ham10000,mel,4
+ISIC_0027804,nevus,original_ham10000,nv,5
+ISIC_0066890,basal cell carcinoma,bcn20000,bcc,1
+ISIC_0025735,nevus,original_ham10000,nv,5
+ISIC_0032683,nevus,original_ham10000,nv,5
+ISIC_0030945,nevus,original_ham10000,nv,5
+ISIC_0062355,basal cell carcinoma,bcn20000,bcc,1
+ISIC_0066398,basal cell carcinoma,bcn20000,bcc,1
+ISIC_5752865,melanoma,DERM12345,mel,4
+ISIC_0070825,basal cell carcinoma,bcn20000,bcc,1
+ISIC_0064321,melanoma,bcn20000,mel,4
+ISIC_0065221,basal cell carcinoma,bcn20000,bcc,1
+ISIC_0028177,nevus,original_ham10000,nv,5
+ISIC_0025202,nevus,original_ham10000,nv,5
+ISIC_0031720,nevus,original_ham10000,nv,5
+ISIC_0025285,basal cell carcinoma,original_ham10000,bcc,1
+ISIC_0032815,nevus,original_ham10000,nv,5
+ISIC_0067063,basal cell carcinoma,bcn20000,bcc,1
+ISIC_0025941,melanoma,original_ham10000,mel,4
+ISIC_0012988,melanoma,challenge_2019,mel,4
+ISIC_0057977,basal cell carcinoma,bcn20000,bcc,1
+ISIC_0031351,basal cell carcinoma,original_ham10000,bcc,1
+ISIC_9972877,melanoma,challenge_2024,mel,4
+ISIC_0033137,nevus,original_ham10000,nv,5
+ISIC_0067352,melanoma,bcn20000,mel,4
+ISIC_0058866,melanoma,bcn20000,mel,4
+ISIC_0058720,melanoma,bcn20000,mel,4
+ISIC_0032294,nevus,original_ham10000,nv,5
+ISIC_0035698,melanoma,challenge_2018_t3_t,mel,4
+ISIC_0760004,basal cell carcinoma,challenge_2024,bcc,1
+ISIC_7223369,dermatofibroma,DERM12345,df,3
+ISIC_0027139,benign keratosis-like lesions,original_ham10000,bkl,2
+ISIC_0053939,basal cell carcinoma,bcn20000,bcc,1
+ISIC_0053971,melanoma,bcn20000,mel,4
+ISIC_0061415,basal cell carcinoma,bcn20000,bcc,1
+ISIC_0056531,melanoma,bcn20000,mel,4
+ISIC_0031907,nevus,original_ham10000,nv,5
+ISIC_0067885,melanoma,bcn20000,mel,4
+ISIC_0064229,melanoma,bcn20000,mel,4
+ISIC_0029645,nevus,original_ham10000,nv,5
+ISIC_0028343,benign keratosis-like lesions,original_ham10000,bkl,2
+ISIC_0024590,basal cell carcinoma,original_ham10000,bcc,1
+ISIC_0065681,melanoma,bcn20000,mel,4
+ISIC_5033787,basal cell carcinoma,challenge_2024,bcc,1
+ISIC_0068407,melanoma,bcn20000,mel,4
+ISIC_0034946,basal cell carcinoma,challenge_2018_t3_t,bcc,1
+ISIC_0032131,nevus,original_ham10000,nv,5
+ISIC_0032750,melanoma,original_ham10000,mel,4
+ISIC_0056395,basal cell carcinoma,bcn20000,bcc,1
+ISIC_0060290,basal cell carcinoma,bcn20000,bcc,1
+ISIC_0032209,nevus,original_ham10000,nv,5
+ISIC_0032160,nevus,original_ham10000,nv,5
+ISIC_0031261,benign keratosis-like lesions,original_ham10000,bkl,2
+ISIC_0033597,nevus,original_ham10000,nv,5
+ISIC_0061946,basal cell carcinoma,bcn20000,bcc,1
+ISIC_0064887,melanoma,bcn20000,mel,4
+ISIC_0066114,melanoma,bcn20000,mel,4
+ISIC_0033059,nevus,original_ham10000,nv,5
+ISIC_0024967,melanoma,original_ham10000,mel,4
+ISIC_0068644,basal cell carcinoma,bcn20000,bcc,1
+ISIC_0028558,actinic keratoses,original_ham10000,akiec,0
+ISIC_0026932,nevus,original_ham10000,nv,5
+ISIC_0032964,nevus,original_ham10000,nv,5
+ISIC_0026426,nevus,original_ham10000,nv,5
+ISIC_0030157,nevus,original_ham10000,nv,5
+ISIC_0060751,melanoma,bcn20000,mel,4
+ISIC_0027278,nevus,original_ham10000,nv,5
+ISIC_0067589,dermatofibroma,bcn20000,df,3
+ISIC_0027376,nevus,original_ham10000,nv,5
+ISIC_0065835,basal cell carcinoma,bcn20000,bcc,1
+ISIC_0024381,benign keratosis-like lesions,original_ham10000,bkl,2
+ISIC_0073173,melanoma,bcn20000,mel,4
+ISIC_0033964,nevus,original_ham10000,nv,5
+ISIC_0070738,melanoma,bcn20000,mel,4
+ISIC_0027766,nevus,original_ham10000,nv,5
+ISIC_0029700,nevus,original_ham10000,nv,5
+ISIC_0070015,basal cell carcinoma,bcn20000,bcc,1
+ISIC_0064652,basal cell carcinoma,bcn20000,bcc,1
+ISIC_3028754,melanoma,challenge_2020,mel,4
+ISIC_0027883,nevus,original_ham10000,nv,5
+ISIC_0031258,basal cell carcinoma,original_ham10000,bcc,1
+ISIC_0072907,basal cell carcinoma,bcn20000,bcc,1
+ISIC_0064686,melanoma,bcn20000,mel,4
+ISIC_0028984,melanoma,original_ham10000,mel,4
+ISIC_1653397,melanoma,DERM12345,mel,4
+ISIC_0060888,basal cell carcinoma,bcn20000,bcc,1
+ISIC_0013815,melanoma,challenge_2019,mel,4
+ISIC_0026952,basal cell carcinoma,original_ham10000,bcc,1
+ISIC_6512653,melanoma,challenge_2020,mel,4
+ISIC_0062273,melanoma,bcn20000,mel,4
+ISIC_0054457,melanoma,bcn20000,mel,4
+ISIC_0032447,melanoma,original_ham10000,mel,4
+ISIC_0065583,basal cell carcinoma,bcn20000,bcc,1
+ISIC_6499102,dermatofibroma,DERM12345,df,3
+ISIC_0065581,basal cell carcinoma,bcn20000,bcc,1
+ISIC_0058693,basal cell carcinoma,bcn20000,bcc,1
+ISIC_0033480,benign keratosis-like lesions,original_ham10000,bkl,2
+ISIC_0066416,dermatofibroma,bcn20000,df,3
+ISIC_0000146,melanoma,challenge_2019,mel,4
+ISIC_0059766,melanoma,bcn20000,mel,4
+ISIC_0031444,nevus,original_ham10000,nv,5
+ISIC_0068811,basal cell carcinoma,bcn20000,bcc,1
+ISIC_0034737,melanoma,challenge_2018_t3_t,mel,4
+ISIC_0030270,nevus,original_ham10000,nv,5
+ISIC_0034820,dermatofibroma,challenge_2018_t3_t,df,3
+ISIC_0030507,melanoma,original_ham10000,mel,4
+ISIC_0053847,basal cell carcinoma,bcn20000,bcc,1
+ISIC_0033938,melanoma,original_ham10000,mel,4
+ISIC_0060927,basal cell carcinoma,bcn20000,bcc,1
+ISIC_4412550,melanoma,DERM12345,mel,4
+ISIC_0055802,melanoma,bcn20000,mel,4
+ISIC_0030170,nevus,original_ham10000,nv,5
+ISIC_0032366,nevus,original_ham10000,nv,5
+ISIC_0059345,melanoma,bcn20000,mel,4
+ISIC_0055595,melanoma,bcn20000,mel,4
+ISIC_0069754,basal cell carcinoma,bcn20000,bcc,1
+ISIC_0056965,basal cell carcinoma,bcn20000,bcc,1
+ISIC_0012930,melanoma,challenge_2019,mel,4
+ISIC_0033726,nevus,original_ham10000,nv,5
+ISIC_0032505,nevus,original_ham10000,nv,5
+ISIC_0027914,nevus,original_ham10000,nv,5
+ISIC_0000029,melanoma,challenge_2019,mel,4
+ISIC_0030959,benign keratosis-like lesions,original_ham10000,bkl,2
+ISIC_0071607,basal cell carcinoma,bcn20000,bcc,1
+ISIC_0063824,melanoma,bcn20000,mel,4
+ISIC_0031211,actinic keratoses,original_ham10000,akiec,0
+ISIC_0056350,melanoma,bcn20000,mel,4
+ISIC_0067307,melanoma,bcn20000,mel,4
+ISIC_0025346,nevus,original_ham10000,nv,5
+ISIC_0033542,nevus,original_ham10000,nv,5
+ISIC_0024611,nevus,original_ham10000,nv,5
+ISIC_0029945,nevus,original_ham10000,nv,5
+ISIC_0056935,basal cell carcinoma,bcn20000,bcc,1
+ISIC_0011166,melanoma,challenge_2019,mel,4
+ISIC_0024843,actinic keratoses,original_ham10000,akiec,0
+ISIC_0070682,basal cell carcinoma,bcn20000,bcc,1
+ISIC_0031729,nevus,original_ham10000,nv,5
+ISIC_0028991,nevus,original_ham10000,nv,5
+ISIC_0029253,nevus,original_ham10000,nv,5
+ISIC_0053991,basal cell carcinoma,bcn20000,bcc,1
+ISIC_0033944,nevus,original_ham10000,nv,5
+ISIC_0055361,melanoma,bcn20000,mel,4
+ISIC_0032971,nevus,original_ham10000,nv,5
+ISIC_0057926,basal cell carcinoma,bcn20000,bcc,1
+ISIC_0067135,basal cell carcinoma,bcn20000,bcc,1
+ISIC_0031285,nevus,original_ham10000,nv,5
+ISIC_0069913,basal cell carcinoma,bcn20000,bcc,1
+ISIC_0025683,nevus,original_ham10000,nv,5
+ISIC_0061888,dermatofibroma,bcn20000,df,3
+ISIC_0069514,melanoma,bcn20000,mel,4
+ISIC_0061739,basal cell carcinoma,bcn20000,bcc,1
+ISIC_0032436,nevus,original_ham10000,nv,5
+ISIC_0056007,melanoma,bcn20000,mel,4
+ISIC_0072738,melanoma,bcn20000,mel,4
+ISIC_0029567,actinic keratoses,original_ham10000,akiec,0
+ISIC_0071132,melanoma,bcn20000,mel,4
+ISIC_0061003,melanoma,bcn20000,mel,4
+ISIC_3408231,melanoma,challenge_2020,mel,4
+ISIC_0068715,melanoma,bcn20000,mel,4
+ISIC_7948290,melanoma,challenge_2020,mel,4
+ISIC_0053601,basal cell carcinoma,bcn20000,bcc,1
+ISIC_0062792,melanoma,bcn20000,mel,4
+ISIC_0061097,basal cell carcinoma,bcn20000,bcc,1
+ISIC_0032252,nevus,original_ham10000,nv,5
+ISIC_0031328,nevus,original_ham10000,nv,5
+ISIC_0030126,nevus,original_ham10000,nv,5
+ISIC_0029716,nevus,original_ham10000,nv,5
+ISIC_0028402,nevus,original_ham10000,nv,5
+ISIC_0030118,benign keratosis-like lesions,original_ham10000,bkl,2
+ISIC_0053960,melanoma,bcn20000,mel,4
+ISIC_0273046,melanoma,challenge_2020,mel,4
+ISIC_0060137,basal cell carcinoma,bcn20000,bcc,1
+ISIC_0056317,basal cell carcinoma,bcn20000,bcc,1
+ISIC_0719939,dermatofibroma,DERM12345,df,3
+ISIC_0069000,basal cell carcinoma,bcn20000,bcc,1
+ISIC_0418242,basal cell carcinoma,DERM12345,bcc,1
+ISIC_0025394,melanoma,original_ham10000,mel,4
+ISIC_0032430,melanoma,original_ham10000,mel,4
+ISIC_8074882,basal cell carcinoma,DERM12345,bcc,1
+ISIC_0070221,basal cell carcinoma,bcn20000,bcc,1
+ISIC_0065280,melanoma,bcn20000,mel,4
+ISIC_0028192,nevus,original_ham10000,nv,5
+ISIC_0054523,melanoma,bcn20000,mel,4
+ISIC_0024534,nevus,original_ham10000,nv,5
+ISIC_0029926,nevus,original_ham10000,nv,5
+ISIC_0032572,nevus,original_ham10000,nv,5
+ISIC_0070932,basal cell carcinoma,bcn20000,bcc,1
+ISIC_0066214,basal cell carcinoma,bcn20000,bcc,1
+ISIC_0030444,nevus,original_ham10000,nv,5
+ISIC_0032561,nevus,original_ham10000,nv,5
+ISIC_6411350,basal cell carcinoma,DERM12345,bcc,1
+ISIC_0068234,melanoma,bcn20000,mel,4
+ISIC_0067890,melanoma,bcn20000,mel,4
+ISIC_0057839,basal cell carcinoma,bcn20000,bcc,1
+ISIC_0072280,melanoma,bcn20000,mel,4
+ISIC_0071923,basal cell carcinoma,bcn20000,bcc,1
+ISIC_0024664,nevus,original_ham10000,nv,5
+ISIC_0057116,basal cell carcinoma,bcn20000,bcc,1
+ISIC_0073082,basal cell carcinoma,bcn20000,bcc,1
+ISIC_0030439,nevus,original_ham10000,nv,5
+ISIC_0032261,nevus,original_ham10000,nv,5
+ISIC_0070053,basal cell carcinoma,bcn20000,bcc,1
+ISIC_0025298,nevus,original_ham10000,nv,5
+ISIC_0062827,melanoma,bcn20000,mel,4
+ISIC_0032226,nevus,original_ham10000,nv,5
+ISIC_0027453,nevus,original_ham10000,nv,5
+ISIC_0067638,basal cell carcinoma,bcn20000,bcc,1
+ISIC_0014872,melanoma,challenge_2019,mel,4
+ISIC_0029539,basal cell carcinoma,original_ham10000,bcc,1
+ISIC_0029982,nevus,original_ham10000,nv,5
+ISIC_0067923,basal cell carcinoma,bcn20000,bcc,1
+ISIC_0028202,nevus,original_ham10000,nv,5
+ISIC_0030384,nevus,original_ham10000,nv,5
+ISIC_0030120,nevus,original_ham10000,nv,5
+ISIC_0055871,melanoma,bcn20000,mel,4
+ISIC_0033937,nevus,original_ham10000,nv,5
+ISIC_0029981,nevus,original_ham10000,nv,5
+ISIC_0065990,basal cell carcinoma,bcn20000,bcc,1
+ISIC_0027185,nevus,original_ham10000,nv,5
+ISIC_0030043,nevus,original_ham10000,nv,5
+ISIC_0026394,nevus,original_ham10000,nv,5
+ISIC_0026998,nevus,original_ham10000,nv,5
+ISIC_0030869,nevus,original_ham10000,nv,5
+ISIC_0024671,nevus,original_ham10000,nv,5
+ISIC_0027116,nevus,original_ham10000,nv,5
+ISIC_0055417,melanoma,bcn20000,mel,4
+ISIC_0064631,basal cell carcinoma,bcn20000,bcc,1
+ISIC_0066816,basal cell carcinoma,bcn20000,bcc,1
+ISIC_0026603,nevus,original_ham10000,nv,5
+ISIC_0060829,melanoma,bcn20000,mel,4
+ISIC_0030923,nevus,original_ham10000,nv,5
+ISIC_0032129,benign keratosis-like lesions,original_ham10000,bkl,2
+ISIC_0070672,basal cell carcinoma,bcn20000,bcc,1
+ISIC_0031651,basal cell carcinoma,original_ham10000,bcc,1
+ISIC_0032033,nevus,original_ham10000,nv,5
+ISIC_0028000,nevus,original_ham10000,nv,5
+ISIC_0053501,basal cell carcinoma,bcn20000,bcc,1
+ISIC_2204976,melanoma,DERM12345,mel,4
+ISIC_0032461,basal cell carcinoma,original_ham10000,bcc,1
+ISIC_0026316,benign keratosis-like lesions,original_ham10000,bkl,2
+ISIC_0072468,melanoma,bcn20000,mel,4
+ISIC_0032286,nevus,original_ham10000,nv,5
+ISIC_0059148,melanoma,bcn20000,mel,4
+ISIC_0029776,benign keratosis-like lesions,original_ham10000,bkl,2
+ISIC_0067736,basal cell carcinoma,bcn20000,bcc,1
+ISIC_0056396,basal cell carcinoma,bcn20000,bcc,1
+ISIC_3742061,basal cell carcinoma,DERM12345,bcc,1
+ISIC_0059264,melanoma,bcn20000,mel,4
+ISIC_0066336,melanoma,bcn20000,mel,4
+ISIC_0068979,melanoma,bcn20000,mel,4
+ISIC_0033304,melanoma,original_ham10000,mel,4
+ISIC_0024531,nevus,original_ham10000,nv,5
+ISIC_0055567,basal cell carcinoma,bcn20000,bcc,1
+ISIC_0032245,melanoma,original_ham10000,mel,4
+ISIC_0064416,melanoma,bcn20000,mel,4
+ISIC_0033204,melanoma,original_ham10000,mel,4
+ISIC_0027534,nevus,original_ham10000,nv,5
+ISIC_0030912,nevus,original_ham10000,nv,5
+ISIC_0027082,nevus,original_ham10000,nv,5
+ISIC_0030772,nevus,original_ham10000,nv,5
+ISIC_0029106,nevus,original_ham10000,nv,5
+ISIC_0030436,benign keratosis-like lesions,original_ham10000,bkl,2
+ISIC_0071492,melanoma,bcn20000,mel,4
+ISIC_0000148,melanoma,challenge_2019,mel,4
+ISIC_0035357,basal cell carcinoma,challenge_2018_t3_t,bcc,1
+ISIC_0067543,melanoma,bcn20000,mel,4
+ISIC_8545706,dermatofibroma,DERM12345,df,3
+ISIC_0030461,nevus,original_ham10000,nv,5
+ISIC_0062952,melanoma,bcn20000,mel,4
+ISIC_0058270,melanoma,bcn20000,mel,4
+ISIC_0054090,melanoma,bcn20000,mel,4
+ISIC_0026461,nevus,original_ham10000,nv,5
+ISIC_0064415,basal cell carcinoma,bcn20000,bcc,1
+ISIC_0034113,benign keratosis-like lesions,original_ham10000,bkl,2
+ISIC_0027408,nevus,original_ham10000,nv,5
+ISIC_0028084,basal cell carcinoma,original_ham10000,bcc,1
+ISIC_0029896,nevus,original_ham10000,nv,5
+ISIC_0033126,nevus,original_ham10000,nv,5
+ISIC_0029961,nevus,original_ham10000,nv,5
+ISIC_0025892,nevus,original_ham10000,nv,5
+ISIC_0026800,nevus,original_ham10000,nv,5
+ISIC_0025939,benign keratosis-like lesions,original_ham10000,bkl,2
+ISIC_0032006,benign keratosis-like lesions,original_ham10000,bkl,2
+ISIC_4960784,melanoma,challenge_2020,mel,4
+ISIC_0034070,benign keratosis-like lesions,original_ham10000,bkl,2
+ISIC_0059178,melanoma,bcn20000,mel,4
+ISIC_0026503,nevus,original_ham10000,nv,5
+ISIC_0055397,basal cell carcinoma,bcn20000,bcc,1
+ISIC_0061531,melanoma,bcn20000,mel,4
+ISIC_0028333,nevus,original_ham10000,nv,5
+ISIC_0027869,nevus,original_ham10000,nv,5
+ISIC_9317483,melanoma,challenge_2020,mel,4
+ISIC_0067316,basal cell carcinoma,bcn20000,bcc,1
+ISIC_0068468,melanoma,bcn20000,mel,4
+ISIC_0027149,melanoma,original_ham10000,mel,4
+ISIC_0030279,nevus,original_ham10000,nv,5
+ISIC_0069287,basal cell carcinoma,bcn20000,bcc,1
+ISIC_0065875,basal cell carcinoma,bcn20000,bcc,1
+ISIC_0024476,nevus,original_ham10000,nv,5
+ISIC_0063066,basal cell carcinoma,bcn20000,bcc,1
+ISIC_0060811,basal cell carcinoma,bcn20000,bcc,1
+ISIC_0031504,nevus,original_ham10000,nv,5
+ISIC_0064521,melanoma,bcn20000,mel,4
+ISIC_0014270,melanoma,challenge_2019,mel,4
+ISIC_0055297,melanoma,bcn20000,mel,4
+ISIC_0031722,nevus,original_ham10000,nv,5
+ISIC_0069165,melanoma,bcn20000,mel,4
+ISIC_0072489,melanoma,bcn20000,mel,4
+ISIC_0032321,nevus,original_ham10000,nv,5
+ISIC_0064498,melanoma,bcn20000,mel,4
+ISIC_0029869,nevus,original_ham10000,nv,5
+ISIC_0034090,nevus,original_ham10000,nv,5
+ISIC_0033321,benign keratosis-like lesions,original_ham10000,bkl,2
+ISIC_0064161,melanoma,bcn20000,mel,4
+ISIC_0028525,benign keratosis-like lesions,original_ham10000,bkl,2
+ISIC_0034695,basal cell carcinoma,challenge_2018_t3_t,bcc,1
+ISIC_0071111,melanoma,bcn20000,mel,4
+ISIC_6620377,melanoma,challenge_2020,mel,4
+ISIC_0059992,melanoma,bcn20000,mel,4
+ISIC_0029351,nevus,original_ham10000,nv,5
+ISIC_0030753,nevus,original_ham10000,nv,5
+ISIC_0033218,basal cell carcinoma,original_ham10000,bcc,1
+ISIC_0058420,basal cell carcinoma,bcn20000,bcc,1
+ISIC_0028636,nevus,original_ham10000,nv,5
+ISIC_0070344,melanoma,bcn20000,mel,4
+ISIC_0070652,basal cell carcinoma,bcn20000,bcc,1
+ISIC_0057113,melanoma,bcn20000,mel,4
+ISIC_0029447,nevus,original_ham10000,nv,5
+ISIC_0024350,nevus,original_ham10000,nv,5
+ISIC_0032102,nevus,original_ham10000,nv,5
+ISIC_2604412,basal cell carcinoma,challenge_2024,bcc,1
+ISIC_0072545,basal cell carcinoma,bcn20000,bcc,1
+ISIC_4688289,melanoma,DERM12345,mel,4
+ISIC_0033640,nevus,original_ham10000,nv,5
+ISIC_0068969,basal cell carcinoma,bcn20000,bcc,1
+ISIC_0031705,nevus,original_ham10000,nv,5
+ISIC_0060080,melanoma,bcn20000,mel,4
+ISIC_0025549,nevus,original_ham10000,nv,5
+ISIC_0032562,nevus,original_ham10000,nv,5
+ISIC_0067566,melanoma,bcn20000,mel,4
+ISIC_0058138,melanoma,bcn20000,mel,4
+ISIC_0025651,melanoma,original_ham10000,mel,4
+ISIC_0033608,vascular lesions,original_ham10000,vasc,6
+ISIC_2297725,dermatofibroma,DERM12345,df,3
+ISIC_0068149,basal cell carcinoma,bcn20000,bcc,1
+ISIC_0067717,melanoma,bcn20000,mel,4
+ISIC_0027878,nevus,original_ham10000,nv,5
+ISIC_0032140,nevus,original_ham10000,nv,5
+ISIC_9967046,melanoma,DERM12345,mel,4
+ISIC_0034759,basal cell carcinoma,challenge_2018_t3_t,bcc,1
+ISIC_0071136,basal cell carcinoma,bcn20000,bcc,1
+ISIC_0029750,nevus,original_ham10000,nv,5
+ISIC_0054292,melanoma,bcn20000,mel,4
+ISIC_0033403,nevus,original_ham10000,nv,5
+ISIC_0032246,basal cell carcinoma,original_ham10000,bcc,1
+ISIC_0053796,melanoma,bcn20000,mel,4
+ISIC_0054217,melanoma,bcn20000,mel,4
+ISIC_0033457,nevus,original_ham10000,nv,5
+ISIC_0057261,melanoma,bcn20000,mel,4
+ISIC_3536867,basal cell carcinoma,DERM12345,bcc,1
+ISIC_0067770,basal cell carcinoma,bcn20000,bcc,1
+ISIC_0069667,melanoma,bcn20000,mel,4
+ISIC_0063231,basal cell carcinoma,bcn20000,bcc,1
+ISIC_0063610,basal cell carcinoma,bcn20000,bcc,1
+ISIC_0033119,nevus,original_ham10000,nv,5
+ISIC_0027122,nevus,original_ham10000,nv,5
+ISIC_0061894,melanoma,bcn20000,mel,4
+ISIC_0028191,nevus,original_ham10000,nv,5
+ISIC_0068761,melanoma,bcn20000,mel,4
+ISIC_0067186,dermatofibroma,bcn20000,df,3
+ISIC_9440222,basal cell carcinoma,DERM12345,bcc,1
+ISIC_0033285,nevus,original_ham10000,nv,5
+ISIC_4416549,basal cell carcinoma,DERM12345,bcc,1
+ISIC_0066881,basal cell carcinoma,bcn20000,bcc,1
+ISIC_0064464,basal cell carcinoma,bcn20000,bcc,1
+ISIC_0058301,melanoma,bcn20000,mel,4
+ISIC_0033243,nevus,original_ham10000,nv,5
+ISIC_0029543,nevus,original_ham10000,nv,5
+ISIC_4346693,melanoma,challenge_2020,mel,4
+ISIC_0064619,melanoma,bcn20000,mel,4
+ISIC_0056218,basal cell carcinoma,bcn20000,bcc,1
+ISIC_0031214,nevus,original_ham10000,nv,5
+ISIC_0066092,basal cell carcinoma,bcn20000,bcc,1
+ISIC_0062767,melanoma,bcn20000,mel,4
+ISIC_0055379,basal cell carcinoma,bcn20000,bcc,1
+ISIC_0066332,melanoma,bcn20000,mel,4
+ISIC_0053916,melanoma,bcn20000,mel,4
+ISIC_0025195,melanoma,original_ham10000,mel,4
+ISIC_4217775,basal cell carcinoma,challenge_2024,bcc,1
+ISIC_0058767,basal cell carcinoma,bcn20000,bcc,1
+ISIC_0032495,nevus,original_ham10000,nv,5
+ISIC_5166798,melanoma,challenge_2020,mel,4
+ISIC_0030886,nevus,original_ham10000,nv,5
+ISIC_0065032,basal cell carcinoma,bcn20000,bcc,1
+ISIC_0064689,melanoma,bcn20000,mel,4
+ISIC_0035216,melanoma,challenge_2018_t3_t,mel,4
+ISIC_0028878,melanoma,original_ham10000,mel,4
+ISIC_0030476,nevus,original_ham10000,nv,5
+ISIC_0032845,melanoma,original_ham10000,mel,4
+ISIC_0066069,melanoma,bcn20000,mel,4
+ISIC_2708830,dermatofibroma,DERM12345,df,3
+ISIC_0028345,nevus,original_ham10000,nv,5
+ISIC_0054337,melanoma,bcn20000,mel,4
+ISIC_0031831,benign keratosis-like lesions,original_ham10000,bkl,2
+ISIC_0031441,nevus,original_ham10000,nv,5
+ISIC_0026443,benign keratosis-like lesions,original_ham10000,bkl,2
+ISIC_0034083,nevus,original_ham10000,nv,5
+ISIC_0072267,basal cell carcinoma,bcn20000,bcc,1
+ISIC_5892129,basal cell carcinoma,DERM12345,bcc,1
+ISIC_0027098,nevus,original_ham10000,nv,5
+ISIC_0031948,nevus,original_ham10000,nv,5
+ISIC_0054086,basal cell carcinoma,bcn20000,bcc,1
+ISIC_0053503,melanoma,bcn20000,mel,4
+ISIC_0025581,nevus,original_ham10000,nv,5
+ISIC_0067784,basal cell carcinoma,bcn20000,bcc,1
+ISIC_0056337,melanoma,bcn20000,mel,4
+ISIC_0025373,dermatofibroma,original_ham10000,df,3
+ISIC_2612284,basal cell carcinoma,DERM12345,bcc,1
+ISIC_0031837,nevus,original_ham10000,nv,5
+ISIC_0070546,dermatofibroma,bcn20000,df,3
+ISIC_0027416,nevus,original_ham10000,nv,5
+ISIC_0029438,nevus,original_ham10000,nv,5
+ISIC_0069140,melanoma,bcn20000,mel,4
+ISIC_0026751,nevus,original_ham10000,nv,5
+ISIC_0057402,melanoma,bcn20000,mel,4
+ISIC_0071299,basal cell carcinoma,bcn20000,bcc,1
+ISIC_0031435,nevus,original_ham10000,nv,5
+ISIC_0026789,dermatofibroma,original_ham10000,df,3
+ISIC_1631784,dermatofibroma,DERM12345,df,3
+ISIC_0030721,benign keratosis-like lesions,original_ham10000,bkl,2
+ISIC_0027675,basal cell carcinoma,original_ham10000,bcc,1
+ISIC_0030897,nevus,original_ham10000,nv,5
+ISIC_0031202,nevus,original_ham10000,nv,5
+ISIC_0072411,melanoma,bcn20000,mel,4
+ISIC_0026156,basal cell carcinoma,original_ham10000,bcc,1
+ISIC_0072348,melanoma,bcn20000,mel,4
+ISIC_0027197,nevus,original_ham10000,nv,5
+ISIC_0010029,melanoma,challenge_2019,mel,4
+ISIC_8286831,dermatofibroma,DERM12345,df,3
+ISIC_0028736,nevus,original_ham10000,nv,5
+ISIC_0028442,melanoma,original_ham10000,mel,4
+ISIC_0065066,melanoma,bcn20000,mel,4
+ISIC_0032486,benign keratosis-like lesions,original_ham10000,bkl,2
+ISIC_0031235,nevus,original_ham10000,nv,5
+ISIC_0066943,basal cell carcinoma,bcn20000,bcc,1
+ISIC_0025456,nevus,original_ham10000,nv,5
+ISIC_0068303,melanoma,bcn20000,mel,4
+ISIC_0063654,melanoma,bcn20000,mel,4
+ISIC_0069109,basal cell carcinoma,bcn20000,bcc,1
+ISIC_0061596,basal cell carcinoma,bcn20000,bcc,1
+ISIC_0030819,nevus,original_ham10000,nv,5
+ISIC_0061301,basal cell carcinoma,bcn20000,bcc,1
+ISIC_1357366,basal cell carcinoma,challenge_2024,bcc,1
+ISIC_0024969,nevus,original_ham10000,nv,5
+ISIC_0062946,basal cell carcinoma,bcn20000,bcc,1
+ISIC_0029722,nevus,original_ham10000,nv,5
+ISIC_0033413,actinic keratoses,original_ham10000,akiec,0
+ISIC_0027181,nevus,original_ham10000,nv,5
+ISIC_0029131,nevus,original_ham10000,nv,5
+ISIC_0072325,basal cell carcinoma,bcn20000,bcc,1
+ISIC_0025198,nevus,original_ham10000,nv,5
+ISIC_0060801,basal cell carcinoma,bcn20000,bcc,1
+ISIC_0030910,melanoma,original_ham10000,mel,4
+ISIC_8147543,basal cell carcinoma,DERM12345,bcc,1
+ISIC_0060710,melanoma,bcn20000,mel,4
+ISIC_2922864,melanoma,DERM12345,mel,4
+ISIC_0066058,melanoma,bcn20000,mel,4
+ISIC_0026764,nevus,original_ham10000,nv,5
+ISIC_0063506,basal cell carcinoma,bcn20000,bcc,1
+ISIC_0072900,basal cell carcinoma,bcn20000,bcc,1
+ISIC_0030171,melanoma,original_ham10000,mel,4
+ISIC_0027081,nevus,original_ham10000,nv,5
+ISIC_0025758,benign keratosis-like lesions,original_ham10000,bkl,2
+ISIC_3941123,melanoma,challenge_2020,mel,4
+ISIC_0031041,basal cell carcinoma,original_ham10000,bcc,1
+ISIC_0027291,basal cell carcinoma,original_ham10000,bcc,1
+ISIC_0067240,melanoma,bcn20000,mel,4
+ISIC_0034091,nevus,original_ham10000,nv,5
+ISIC_0068747,melanoma,bcn20000,mel,4
+ISIC_0029378,nevus,original_ham10000,nv,5
+ISIC_0032793,nevus,original_ham10000,nv,5
+ISIC_0033633,nevus,original_ham10000,nv,5
+ISIC_4824170,dermatofibroma,DERM12345,df,3
+ISIC_0031882,nevus,original_ham10000,nv,5
+ISIC_0027954,benign keratosis-like lesions,original_ham10000,bkl,2
+ISIC_0025661,benign keratosis-like lesions,original_ham10000,bkl,2
+ISIC_0029898,nevus,original_ham10000,nv,5
+ISIC_0060931,basal cell carcinoma,bcn20000,bcc,1
+ISIC_0066632,dermatofibroma,bcn20000,df,3
+ISIC_0064248,basal cell carcinoma,bcn20000,bcc,1
+ISIC_0057657,basal cell carcinoma,bcn20000,bcc,1
+ISIC_0031873,nevus,original_ham10000,nv,5
+ISIC_0027231,actinic keratoses,original_ham10000,akiec,0
+ISIC_0024536,nevus,original_ham10000,nv,5
+ISIC_0025852,nevus,original_ham10000,nv,5
+ISIC_0031541,nevus,original_ham10000,nv,5
+ISIC_0063428,melanoma,bcn20000,mel,4
+ISIC_0057336,basal cell carcinoma,bcn20000,bcc,1
+ISIC_0031461,nevus,original_ham10000,nv,5
+ISIC_0026972,nevus,original_ham10000,nv,5
+ISIC_0028296,nevus,original_ham10000,nv,5
+ISIC_0033462,nevus,original_ham10000,nv,5
+ISIC_0029337,basal cell carcinoma,original_ham10000,bcc,1
+ISIC_0057218,melanoma,bcn20000,mel,4
+ISIC_0068202,melanoma,bcn20000,mel,4
+ISIC_0062349,basal cell carcinoma,bcn20000,bcc,1
+ISIC_0033961,nevus,original_ham10000,nv,5
+ISIC_0026516,melanoma,original_ham10000,mel,4
+ISIC_0072523,melanoma,bcn20000,mel,4
+ISIC_0024558,nevus,original_ham10000,nv,5
+ISIC_0062480,basal cell carcinoma,bcn20000,bcc,1
+ISIC_0025677,vascular lesions,original_ham10000,vasc,6
+ISIC_0028551,nevus,original_ham10000,nv,5
+ISIC_0024537,melanoma,original_ham10000,mel,4
+ISIC_0030312,nevus,original_ham10000,nv,5
+ISIC_0026361,nevus,original_ham10000,nv,5
+ISIC_8747214,basal cell carcinoma,DERM12345,bcc,1
+ISIC_0056726,melanoma,bcn20000,mel,4
+ISIC_3319229,melanoma,challenge_2020,mel,4
+ISIC_0061382,melanoma,bcn20000,mel,4
+ISIC_0069951,melanoma,bcn20000,mel,4
+ISIC_0056681,basal cell carcinoma,bcn20000,bcc,1
+ISIC_0034104,melanoma,original_ham10000,mel,4
+ISIC_0065307,melanoma,bcn20000,mel,4
+ISIC_0064034,melanoma,bcn20000,mel,4
+ISIC_0059009,basal cell carcinoma,bcn20000,bcc,1
+ISIC_0066239,dermatofibroma,bcn20000,df,3
+ISIC_0034017,nevus,original_ham10000,nv,5
+ISIC_0054279,basal cell carcinoma,bcn20000,bcc,1
+ISIC_0065157,basal cell carcinoma,bcn20000,bcc,1
+ISIC_0029642,melanoma,original_ham10000,mel,4
+ISIC_1186492,basal cell carcinoma,DERM12345,bcc,1
+ISIC_0030656,nevus,original_ham10000,nv,5
+ISIC_0027271,nevus,original_ham10000,nv,5
+ISIC_0071794,basal cell carcinoma,bcn20000,bcc,1
+ISIC_0024487,nevus,original_ham10000,nv,5
+ISIC_0013581,melanoma,challenge_2019,mel,4
+ISIC_0034409,basal cell carcinoma,challenge_2019_test,bcc,1
+ISIC_0028561,nevus,original_ham10000,nv,5
+ISIC_0059100,basal cell carcinoma,bcn20000,bcc,1
+ISIC_0031595,nevus,original_ham10000,nv,5
+ISIC_0065564,basal cell carcinoma,bcn20000,bcc,1
+ISIC_0027351,nevus,original_ham10000,nv,5
+ISIC_0033960,nevus,original_ham10000,nv,5
+ISIC_0058284,melanoma,bcn20000,mel,4
+ISIC_0056247,melanoma,bcn20000,mel,4
+ISIC_0065328,basal cell carcinoma,bcn20000,bcc,1
+ISIC_0065961,melanoma,bcn20000,mel,4
+ISIC_0029388,nevus,original_ham10000,nv,5
+ISIC_0026235,nevus,original_ham10000,nv,5
+ISIC_9603605,basal cell carcinoma,DERM12345,bcc,1
+ISIC_0064884,basal cell carcinoma,bcn20000,bcc,1
+ISIC_0028397,nevus,original_ham10000,nv,5
+ISIC_0032011,nevus,original_ham10000,nv,5
+ISIC_0057732,basal cell carcinoma,bcn20000,bcc,1
+ISIC_0061969,melanoma,bcn20000,mel,4
+ISIC_0058342,basal cell carcinoma,bcn20000,bcc,1
+ISIC_0027979,nevus,original_ham10000,nv,5
+ISIC_0029741,benign keratosis-like lesions,original_ham10000,bkl,2
+ISIC_0028086,melanoma,original_ham10000,mel,4
+ISIC_7503950,melanoma,challenge_2020,mel,4
+ISIC_0059410,basal cell carcinoma,bcn20000,bcc,1
+ISIC_0026273,benign keratosis-like lesions,original_ham10000,bkl,2
+ISIC_0030834,nevus,original_ham10000,nv,5
+ISIC_0628461,basal cell carcinoma,DERM12345,bcc,1
+ISIC_0057870,melanoma,bcn20000,mel,4
+ISIC_0028599,nevus,original_ham10000,nv,5
+ISIC_0060437,melanoma,bcn20000,mel,4
+ISIC_0029992,nevus,original_ham10000,nv,5
+ISIC_0029584,nevus,original_ham10000,nv,5
+ISIC_0024718,nevus,original_ham10000,nv,5
+ISIC_0056106,basal cell carcinoma,bcn20000,bcc,1
+ISIC_0063174,melanoma,bcn20000,mel,4
+ISIC_0055659,melanoma,bcn20000,mel,4
+ISIC_0028101,nevus,original_ham10000,nv,5
+ISIC_0055454,melanoma,bcn20000,mel,4
+ISIC_0026798,basal cell carcinoma,original_ham10000,bcc,1
+ISIC_0025461,nevus,original_ham10000,nv,5
+ISIC_0069714,basal cell carcinoma,bcn20000,bcc,1
+ISIC_6398669,melanoma,challenge_2020,mel,4
+ISIC_0024592,benign keratosis-like lesions,original_ham10000,bkl,2
+ISIC_0032811,nevus,original_ham10000,nv,5
+ISIC_0054866,basal cell carcinoma,bcn20000,bcc,1
+ISIC_0034714,melanoma,challenge_2018_t3_t,mel,4
+ISIC_0027743,nevus,original_ham10000,nv,5
+ISIC_0065164,basal cell carcinoma,bcn20000,bcc,1
+ISIC_0026213,basal cell carcinoma,original_ham10000,bcc,1
+ISIC_0024766,nevus,original_ham10000,nv,5
+ISIC_0053660,melanoma,bcn20000,mel,4
+ISIC_0001134,melanoma,challenge_2019,mel,4
+ISIC_0032689,nevus,original_ham10000,nv,5
+ISIC_9337475,basal cell carcinoma,DERM12345,bcc,1
+ISIC_0034022,melanoma,original_ham10000,mel,4
+ISIC_0032702,nevus,original_ham10000,nv,5
+ISIC_0031609,actinic keratoses,original_ham10000,akiec,0
+ISIC_0060521,melanoma,bcn20000,mel,4
+ISIC_0025084,nevus,original_ham10000,nv,5
+ISIC_0058765,basal cell carcinoma,bcn20000,bcc,1
+ISIC_0066429,melanoma,bcn20000,mel,4
+ISIC_0068950,melanoma,bcn20000,mel,4
+ISIC_0033800,nevus,original_ham10000,nv,5
+ISIC_0069038,basal cell carcinoma,bcn20000,bcc,1
+ISIC_0032634,nevus,original_ham10000,nv,5
+ISIC_0031076,nevus,original_ham10000,nv,5
+ISIC_0065324,melanoma,bcn20000,mel,4
+ISIC_0062344,basal cell carcinoma,bcn20000,bcc,1
+ISIC_0033226,melanoma,original_ham10000,mel,4
+ISIC_0056961,basal cell carcinoma,bcn20000,bcc,1
+ISIC_0014862,melanoma,challenge_2019,mel,4
+ISIC_0072977,melanoma,bcn20000,mel,4
+ISIC_0071730,basal cell carcinoma,bcn20000,bcc,1
+ISIC_0027423,nevus,original_ham10000,nv,5
+ISIC_0033561,nevus,original_ham10000,nv,5
+ISIC_5296987,basal cell carcinoma,DERM12345,bcc,1
+ISIC_1569119,melanoma,challenge_2020,mel,4
+ISIC_4825124,basal cell carcinoma,DERM12345,bcc,1
+ISIC_0027713,benign keratosis-like lesions,original_ham10000,bkl,2
+ISIC_0027645,nevus,original_ham10000,nv,5
+ISIC_0032473,nevus,original_ham10000,nv,5
+ISIC_7232860,basal cell carcinoma,DERM12345,bcc,1
+ISIC_0013908,melanoma,challenge_2019,mel,4
+ISIC_0067843,melanoma,bcn20000,mel,4
+ISIC_0000307,melanoma,challenge_2019,mel,4
+ISIC_0030262,nevus,original_ham10000,nv,5
+ISIC_0028624,nevus,original_ham10000,nv,5
+ISIC_0058644,melanoma,bcn20000,mel,4
+ISIC_0034666,dermatofibroma,challenge_2018_t3_t,df,3
+ISIC_0056440,melanoma,bcn20000,mel,4
+ISIC_0028102,nevus,original_ham10000,nv,5
+ISIC_0026988,basal cell carcinoma,original_ham10000,bcc,1
+ISIC_7963944,basal cell carcinoma,DERM12345,bcc,1
+ISIC_0061670,melanoma,bcn20000,mel,4
+ISIC_0025924,vascular lesions,original_ham10000,vasc,6
+ISIC_0053541,melanoma,bcn20000,mel,4
+ISIC_0066541,basal cell carcinoma,bcn20000,bcc,1
+ISIC_0067175,basal cell carcinoma,bcn20000,bcc,1
+ISIC_0065228,basal cell carcinoma,bcn20000,bcc,1
+ISIC_0027824,nevus,original_ham10000,nv,5
+ISIC_5434661,melanoma,challenge_2020,mel,4
+ISIC_0000303,melanoma,challenge_2019,mel,4
+ISIC_0025054,nevus,original_ham10000,nv,5
+ISIC_0027400,nevus,original_ham10000,nv,5
+ISIC_0068904,basal cell carcinoma,bcn20000,bcc,1
+ISIC_0033904,nevus,original_ham10000,nv,5
+ISIC_0059512,melanoma,bcn20000,mel,4
+ISIC_0067646,basal cell carcinoma,bcn20000,bcc,1
+ISIC_0024776,nevus,original_ham10000,nv,5
+ISIC_0058909,melanoma,bcn20000,mel,4
+ISIC_0060788,basal cell carcinoma,bcn20000,bcc,1
+ISIC_0028709,melanoma,original_ham10000,mel,4
+ISIC_0025192,nevus,original_ham10000,nv,5
+ISIC_0068255,melanoma,bcn20000,mel,4
+ISIC_0026613,nevus,original_ham10000,nv,5
+ISIC_0054615,basal cell carcinoma,bcn20000,bcc,1
+ISIC_0034269,melanoma,original_ham10000,mel,4
+ISIC_0013497,melanoma,challenge_2019,mel,4
+ISIC_0056979,melanoma,bcn20000,mel,4
+ISIC_0028696,melanoma,original_ham10000,mel,4
+ISIC_0027591,nevus,original_ham10000,nv,5
+ISIC_0059050,basal cell carcinoma,bcn20000,bcc,1
+ISIC_0070656,basal cell carcinoma,bcn20000,bcc,1
+ISIC_0063792,melanoma,bcn20000,mel,4
+ISIC_0000030,melanoma,challenge_2019,mel,4
+ISIC_0062505,melanoma,bcn20000,mel,4
+ISIC_0069144,basal cell carcinoma,bcn20000,bcc,1
+ISIC_1910468,melanoma,DERM12345,mel,4
+ISIC_0053488,basal cell carcinoma,bcn20000,bcc,1
+ISIC_0033775,nevus,original_ham10000,nv,5
+ISIC_0066338,melanoma,bcn20000,mel,4
+ISIC_0027701,nevus,original_ham10000,nv,5
+ISIC_0026124,nevus,original_ham10000,nv,5
+ISIC_0540011,melanoma,DERM12345,mel,4
+ISIC_0032871,nevus,original_ham10000,nv,5
+ISIC_0062096,basal cell carcinoma,bcn20000,bcc,1
+ISIC_0033096,nevus,original_ham10000,nv,5
+ISIC_0028512,melanoma,original_ham10000,mel,4
+ISIC_0032728,nevus,original_ham10000,nv,5
+ISIC_0060339,basal cell carcinoma,bcn20000,bcc,1
+ISIC_0026733,nevus,original_ham10000,nv,5
+ISIC_0029625,nevus,original_ham10000,nv,5
+ISIC_0072008,basal cell carcinoma,bcn20000,bcc,1
+ISIC_0033460,benign keratosis-like lesions,original_ham10000,bkl,2
+ISIC_0024873,nevus,original_ham10000,nv,5
+ISIC_0030592,nevus,original_ham10000,nv,5
+ISIC_0026068,vascular lesions,original_ham10000,vasc,6
+ISIC_0060790,basal cell carcinoma,bcn20000,bcc,1
+ISIC_0066910,melanoma,bcn20000,mel,4
+ISIC_0032999,nevus,original_ham10000,nv,5
+ISIC_0030102,nevus,original_ham10000,nv,5
+ISIC_0059358,melanoma,bcn20000,mel,4
+ISIC_0068851,melanoma,bcn20000,mel,4
+ISIC_0028490,benign keratosis-like lesions,original_ham10000,bkl,2
+ISIC_0065708,melanoma,bcn20000,mel,4
+ISIC_0029099,vascular lesions,original_ham10000,vasc,6
+ISIC_0060380,melanoma,bcn20000,mel,4
+ISIC_0061185,melanoma,bcn20000,mel,4
+ISIC_0013839,melanoma,challenge_2019,mel,4
+ISIC_0014527,melanoma,challenge_2019,mel,4
+ISIC_0031889,nevus,original_ham10000,nv,5
+ISIC_0026786,nevus,original_ham10000,nv,5
+ISIC_0027260,melanoma,original_ham10000,mel,4
+ISIC_0028384,nevus,original_ham10000,nv,5
+ISIC_0028412,melanoma,original_ham10000,mel,4
+ISIC_0033686,nevus,original_ham10000,nv,5
+ISIC_0030739,nevus,original_ham10000,nv,5
+ISIC_0010321,melanoma,challenge_2019,mel,4
+ISIC_0090064,basal cell carcinoma,DERM12345,bcc,1
+ISIC_0072852,basal cell carcinoma,bcn20000,bcc,1
+ISIC_9626843,melanoma,challenge_2020,mel,4
+ISIC_0031429,dermatofibroma,original_ham10000,df,3
+ISIC_0070830,melanoma,bcn20000,mel,4
+ISIC_0028532,nevus,original_ham10000,nv,5
+ISIC_2217280,basal cell carcinoma,DERM12345,bcc,1
+ISIC_0072109,melanoma,bcn20000,mel,4
+ISIC_0014331,melanoma,challenge_2019,mel,4
+ISIC_0029469,nevus,original_ham10000,nv,5
+ISIC_0061011,melanoma,bcn20000,mel,4
+ISIC_0240623,basal cell carcinoma,DERM12345,bcc,1
+ISIC_0057974,melanoma,bcn20000,mel,4
+ISIC_0025252,nevus,original_ham10000,nv,5
+ISIC_0030252,nevus,original_ham10000,nv,5
+ISIC_0061740,basal cell carcinoma,bcn20000,bcc,1
+ISIC_0034343,melanoma,challenge_2019_test,mel,4
+ISIC_0031111,nevus,original_ham10000,nv,5
+ISIC_0027401,nevus,original_ham10000,nv,5
+ISIC_0027398,nevus,original_ham10000,nv,5
+ISIC_0054722,basal cell carcinoma,bcn20000,bcc,1
+ISIC_0030232,nevus,original_ham10000,nv,5
+ISIC_0031991,nevus,original_ham10000,nv,5
+ISIC_8487444,melanoma,challenge_2024,mel,4
+ISIC_0068759,melanoma,bcn20000,mel,4
+ISIC_0068628,melanoma,bcn20000,mel,4
+ISIC_0066863,melanoma,bcn20000,mel,4
+ISIC_0058167,melanoma,bcn20000,mel,4
+ISIC_8966929,basal cell carcinoma,DERM12345,bcc,1
+ISIC_0028814,basal cell carcinoma,original_ham10000,bcc,1
+ISIC_8195275,basal cell carcinoma,challenge_2024,bcc,1
+ISIC_0061206,basal cell carcinoma,bcn20000,bcc,1
+ISIC_8251806,basal cell carcinoma,DERM12345,bcc,1
+ISIC_0033909,nevus,original_ham10000,nv,5
+ISIC_0067167,melanoma,bcn20000,mel,4
+ISIC_0026141,nevus,original_ham10000,nv,5
+ISIC_1984329,basal cell carcinoma,DERM12345,bcc,1
+ISIC_0072630,basal cell carcinoma,bcn20000,bcc,1
+ISIC_0072996,basal cell carcinoma,bcn20000,bcc,1
+ISIC_0061125,melanoma,bcn20000,mel,4
+ISIC_0058521,melanoma,bcn20000,mel,4
+ISIC_0061575,melanoma,bcn20000,mel,4
+ISIC_0055665,melanoma,bcn20000,mel,4
+ISIC_0031706,vascular lesions,original_ham10000,vasc,6
+ISIC_0036007,dermatofibroma,challenge_2018_t3_t,df,3
+ISIC_0031236,basal cell carcinoma,original_ham10000,bcc,1
+ISIC_0069732,basal cell carcinoma,bcn20000,bcc,1
+ISIC_0027254,actinic keratoses,original_ham10000,akiec,0
+ISIC_0848536,basal cell carcinoma,challenge_2024,bcc,1
+ISIC_0057154,melanoma,bcn20000,mel,4
+ISIC_0056282,basal cell carcinoma,bcn20000,bcc,1
+ISIC_0065376,basal cell carcinoma,bcn20000,bcc,1
+ISIC_0062291,basal cell carcinoma,bcn20000,bcc,1
+ISIC_0031213,nevus,original_ham10000,nv,5
+ISIC_0030707,actinic keratoses,original_ham10000,akiec,0
+ISIC_0033060,benign keratosis-like lesions,original_ham10000,bkl,2
+ISIC_0031114,nevus,original_ham10000,nv,5
+ISIC_0032686,nevus,original_ham10000,nv,5
+ISIC_0055550,melanoma,bcn20000,mel,4
+ISIC_0072876,melanoma,bcn20000,mel,4
+ISIC_0072843,melanoma,bcn20000,mel,4
+ISIC_0024692,nevus,original_ham10000,nv,5
+ISIC_0025858,nevus,original_ham10000,nv,5
+ISIC_1161789,dermatofibroma,DERM12345,df,3
+ISIC_0031277,benign keratosis-like lesions,original_ham10000,bkl,2
+ISIC_0065504,basal cell carcinoma,bcn20000,bcc,1
+ISIC_5919383,melanoma,DERM12345,mel,4
+ISIC_0065186,melanoma,bcn20000,mel,4
+ISIC_0031068,nevus,original_ham10000,nv,5
+ISIC_0028564,nevus,original_ham10000,nv,5
+ISIC_0029369,nevus,original_ham10000,nv,5
+ISIC_0030744,benign keratosis-like lesions,original_ham10000,bkl,2
+ISIC_0069946,melanoma,bcn20000,mel,4
+ISIC_0062332,basal cell carcinoma,bcn20000,bcc,1
+ISIC_0063912,melanoma,bcn20000,mel,4
+ISIC_0071262,basal cell carcinoma,bcn20000,bcc,1
+ISIC_0032839,vascular lesions,original_ham10000,vasc,6
+ISIC_0055002,melanoma,bcn20000,mel,4
+ISIC_5415761,melanoma,challenge_2020,mel,4
+ISIC_0063543,melanoma,bcn20000,mel,4
+ISIC_0445144,melanoma,challenge_2024,mel,4
+ISIC_0029903,nevus,original_ham10000,nv,5
+ISIC_0028396,nevus,original_ham10000,nv,5
+ISIC_0026256,nevus,original_ham10000,nv,5
+ISIC_0070351,melanoma,bcn20000,mel,4
+ISIC_0055464,melanoma,bcn20000,mel,4
+ISIC_5775126,melanoma,DERM12345,mel,4
+ISIC_0027314,nevus,original_ham10000,nv,5
+ISIC_0034156,nevus,original_ham10000,nv,5
+ISIC_2700320,melanoma,challenge_2020,mel,4
+ISIC_0012989,melanoma,challenge_2019,mel,4
+ISIC_0026080,nevus,original_ham10000,nv,5
+ISIC_0066166,basal cell carcinoma,bcn20000,bcc,1
+ISIC_7231436,melanoma,challenge_2024,mel,4
+ISIC_0029467,nevus,original_ham10000,nv,5
+ISIC_0030800,basal cell carcinoma,original_ham10000,bcc,1
+ISIC_0072117,basal cell carcinoma,bcn20000,bcc,1
+ISIC_0026797,nevus,original_ham10000,nv,5
+ISIC_0056153,basal cell carcinoma,bcn20000,bcc,1
+ISIC_4528889,basal cell carcinoma,DERM12345,bcc,1
+ISIC_0027331,nevus,original_ham10000,nv,5
+ISIC_0069042,melanoma,bcn20000,mel,4
+ISIC_0034329,melanoma,challenge_2019_test,mel,4
+ISIC_0056969,melanoma,bcn20000,mel,4
+ISIC_0067849,melanoma,bcn20000,mel,4
+ISIC_0013696,melanoma,challenge_2019,mel,4
+ISIC_0033555,nevus,original_ham10000,nv,5
+ISIC_0028783,nevus,original_ham10000,nv,5
+ISIC_0032276,nevus,original_ham10000,nv,5
+ISIC_0027481,nevus,original_ham10000,nv,5
+ISIC_0059366,basal cell carcinoma,bcn20000,bcc,1
+ISIC_0064209,melanoma,bcn20000,mel,4
+ISIC_0027477,nevus,original_ham10000,nv,5
+ISIC_0059135,basal cell carcinoma,bcn20000,bcc,1
+ISIC_0035147,dermatofibroma,challenge_2018_t3_t,df,3
+ISIC_8184478,melanoma,DERM12345,mel,4
+ISIC_0072487,basal cell carcinoma,bcn20000,bcc,1
+ISIC_0068054,melanoma,bcn20000,mel,4
+ISIC_0053617,melanoma,bcn20000,mel,4
+ISIC_0029263,basal cell carcinoma,original_ham10000,bcc,1
+ISIC_0061502,melanoma,bcn20000,mel,4
+ISIC_0061683,basal cell carcinoma,bcn20000,bcc,1
+ISIC_0027002,nevus,original_ham10000,nv,5
+ISIC_0072680,melanoma,bcn20000,mel,4
+ISIC_0055663,basal cell carcinoma,bcn20000,bcc,1
+ISIC_0031924,nevus,original_ham10000,nv,5
+ISIC_0031342,nevus,original_ham10000,nv,5
+ISIC_0035942,basal cell carcinoma,challenge_2018_t3_t,bcc,1
+ISIC_0054512,melanoma,bcn20000,mel,4
+ISIC_6574817,basal cell carcinoma,DERM12345,bcc,1
+ISIC_0055660,melanoma,bcn20000,mel,4
+ISIC_0033278,melanoma,original_ham10000,mel,4
+ISIC_0027835,nevus,original_ham10000,nv,5
+ISIC_0055157,melanoma,bcn20000,mel,4
+ISIC_0065684,basal cell carcinoma,bcn20000,bcc,1
+ISIC_0011118,melanoma,challenge_2019,mel,4
+ISIC_0027357,nevus,original_ham10000,nv,5
+ISIC_0061055,basal cell carcinoma,bcn20000,bcc,1
+ISIC_0058257,basal cell carcinoma,bcn20000,bcc,1
+ISIC_0069753,melanoma,bcn20000,mel,4
+ISIC_0029211,nevus,original_ham10000,nv,5
+ISIC_0057345,basal cell carcinoma,bcn20000,bcc,1
+ISIC_0024691,nevus,original_ham10000,nv,5
+ISIC_0025454,benign keratosis-like lesions,original_ham10000,bkl,2
+ISIC_0031401,melanoma,original_ham10000,mel,4
+ISIC_0071148,melanoma,bcn20000,mel,4
+ISIC_3689524,basal cell carcinoma,DERM12345,bcc,1
+ISIC_0065453,basal cell carcinoma,bcn20000,bcc,1
+ISIC_0062199,basal cell carcinoma,bcn20000,bcc,1
+ISIC_0056902,melanoma,bcn20000,mel,4
+ISIC_0029930,actinic keratoses,original_ham10000,akiec,0
+ISIC_0054880,melanoma,bcn20000,mel,4
+ISIC_0063117,melanoma,bcn20000,mel,4
+ISIC_5830925,melanoma,DERM12345,mel,4
+ISIC_4066277,dermatofibroma,DERM12345,df,3
+ISIC_1173697,melanoma,DERM12345,mel,4
+ISIC_0028753,nevus,original_ham10000,nv,5
+ISIC_0059624,basal cell carcinoma,bcn20000,bcc,1
+ISIC_0060972,melanoma,bcn20000,mel,4
+ISIC_0060140,melanoma,bcn20000,mel,4
+ISIC_0026061,nevus,original_ham10000,nv,5
+ISIC_0024410,melanoma,original_ham10000,mel,4
+ISIC_0069891,melanoma,bcn20000,mel,4
+ISIC_0068182,melanoma,bcn20000,mel,4
+ISIC_3813551,basal cell carcinoma,challenge_2024,bcc,1
+ISIC_0059350,melanoma,bcn20000,mel,4
+ISIC_0057936,melanoma,bcn20000,mel,4
+ISIC_0053936,dermatofibroma,bcn20000,df,3
+ISIC_0026483,nevus,original_ham10000,nv,5
+ISIC_0035997,melanoma,challenge_2018_t3_t,mel,4
+ISIC_0067267,basal cell carcinoma,bcn20000,bcc,1
+ISIC_0027690,nevus,original_ham10000,nv,5
+ISIC_0067539,melanoma,bcn20000,mel,4
+ISIC_0028526,nevus,original_ham10000,nv,5
+ISIC_0060200,basal cell carcinoma,bcn20000,bcc,1
+ISIC_0057149,melanoma,bcn20000,mel,4
+ISIC_0028536,nevus,original_ham10000,nv,5
+ISIC_0030943,nevus,original_ham10000,nv,5
+ISIC_0059523,melanoma,bcn20000,mel,4
+ISIC_0063135,melanoma,bcn20000,mel,4
+ISIC_0032153,nevus,original_ham10000,nv,5
+ISIC_0055015,basal cell carcinoma,bcn20000,bcc,1
+ISIC_0027384,nevus,original_ham10000,nv,5
+ISIC_0026934,nevus,original_ham10000,nv,5
+ISIC_0061549,melanoma,bcn20000,mel,4
+ISIC_0028466,nevus,original_ham10000,nv,5
+ISIC_0030586,actinic keratoses,original_ham10000,akiec,0
+ISIC_0057496,melanoma,bcn20000,mel,4
+ISIC_0065463,melanoma,bcn20000,mel,4
+ISIC_0026031,nevus,original_ham10000,nv,5
+ISIC_0013578,melanoma,challenge_2019,mel,4
+ISIC_0067628,melanoma,bcn20000,mel,4
+ISIC_0054940,basal cell carcinoma,bcn20000,bcc,1
+ISIC_0031029,benign keratosis-like lesions,original_ham10000,bkl,2
+ISIC_0034048,melanoma,original_ham10000,mel,4
+ISIC_0028642,melanoma,original_ham10000,mel,4
+ISIC_0029199,nevus,original_ham10000,nv,5
+ISIC_0034101,melanoma,original_ham10000,mel,4
+ISIC_0060608,basal cell carcinoma,bcn20000,bcc,1
+ISIC_0026809,nevus,original_ham10000,nv,5
+ISIC_3697702,melanoma,challenge_2020,mel,4
+ISIC_0060476,basal cell carcinoma,bcn20000,bcc,1
+ISIC_0033303,nevus,original_ham10000,nv,5
+ISIC_0062690,melanoma,bcn20000,mel,4
+ISIC_0064293,basal cell carcinoma,bcn20000,bcc,1
+ISIC_0029117,nevus,original_ham10000,nv,5
+ISIC_0056835,basal cell carcinoma,bcn20000,bcc,1
+ISIC_0066559,melanoma,bcn20000,mel,4
+ISIC_0028611,benign keratosis-like lesions,original_ham10000,bkl,2
+ISIC_0029888,nevus,original_ham10000,nv,5
+ISIC_0033208,nevus,original_ham10000,nv,5
+ISIC_0059785,melanoma,bcn20000,mel,4
+ISIC_0035397,melanoma,challenge_2018_t3_t,mel,4
+ISIC_0000393,melanoma,challenge_2019,mel,4
+ISIC_0064195,melanoma,bcn20000,mel,4
+ISIC_0027762,nevus,original_ham10000,nv,5
+ISIC_0063816,basal cell carcinoma,bcn20000,bcc,1
+ISIC_0030580,nevus,original_ham10000,nv,5
+ISIC_7897925,melanoma,challenge_2020,mel,4
+ISIC_0064877,melanoma,bcn20000,mel,4
+ISIC_0027433,basal cell carcinoma,original_ham10000,bcc,1
+ISIC_0061437,basal cell carcinoma,bcn20000,bcc,1
+ISIC_0030090,nevus,original_ham10000,nv,5
+ISIC_0059595,melanoma,bcn20000,mel,4
+ISIC_0064601,melanoma,bcn20000,mel,4
+ISIC_0028210,nevus,original_ham10000,nv,5
+ISIC_0027981,nevus,original_ham10000,nv,5
+ISIC_0027634,nevus,original_ham10000,nv,5
+ISIC_0058549,basal cell carcinoma,bcn20000,bcc,1
+ISIC_0024515,basal cell carcinoma,original_ham10000,bcc,1
+ISIC_0025122,nevus,original_ham10000,nv,5
+ISIC_0071067,melanoma,bcn20000,mel,4
+ISIC_0027581,nevus,original_ham10000,nv,5
+ISIC_0034285,nevus,original_ham10000,nv,5
+ISIC_0033353,nevus,original_ham10000,nv,5
+ISIC_0058118,melanoma,bcn20000,mel,4
+ISIC_0030550,nevus,original_ham10000,nv,5
+ISIC_0010852,melanoma,challenge_2019,mel,4
+ISIC_0033889,nevus,original_ham10000,nv,5
+ISIC_0064440,basal cell carcinoma,bcn20000,bcc,1
+ISIC_0031085,nevus,original_ham10000,nv,5
+ISIC_0066268,melanoma,bcn20000,mel,4
+ISIC_0034386,melanoma,challenge_2019_test,mel,4
+ISIC_0071085,basal cell carcinoma,bcn20000,bcc,1
+ISIC_0030040,nevus,original_ham10000,nv,5
+ISIC_0061252,melanoma,bcn20000,mel,4
+ISIC_0032383,nevus,original_ham10000,nv,5
+ISIC_0071710,melanoma,bcn20000,mel,4
+ISIC_0066442,basal cell carcinoma,bcn20000,bcc,1
+ISIC_0065265,melanoma,bcn20000,mel,4
+ISIC_0025349,nevus,original_ham10000,nv,5
+ISIC_0029958,melanoma,original_ham10000,mel,4
+ISIC_0054552,basal cell carcinoma,bcn20000,bcc,1
+ISIC_0027143,nevus,original_ham10000,nv,5
+ISIC_0053949,melanoma,bcn20000,mel,4
+ISIC_0070966,basal cell carcinoma,bcn20000,bcc,1
+ISIC_0067147,basal cell carcinoma,bcn20000,bcc,1
+ISIC_0059912,basal cell carcinoma,bcn20000,bcc,1
+ISIC_0065420,melanoma,bcn20000,mel,4
+ISIC_0033585,nevus,original_ham10000,nv,5
+ISIC_0070006,melanoma,bcn20000,mel,4
+ISIC_0068611,basal cell carcinoma,bcn20000,bcc,1
+ISIC_0070490,basal cell carcinoma,bcn20000,bcc,1
+ISIC_0066352,melanoma,bcn20000,mel,4
+ISIC_0026746,melanoma,original_ham10000,mel,4
+ISIC_1162337,melanoma,challenge_2020,mel,4
+ISIC_0029880,benign keratosis-like lesions,original_ham10000,bkl,2
+ISIC_0027740,nevus,original_ham10000,nv,5
+ISIC_0069255,basal cell carcinoma,bcn20000,bcc,1
+ISIC_0024328,nevus,original_ham10000,nv,5
+ISIC_0061664,melanoma,bcn20000,mel,4
+ISIC_0033766,nevus,original_ham10000,nv,5
+ISIC_0061311,basal cell carcinoma,bcn20000,bcc,1
+ISIC_0070396,melanoma,bcn20000,mel,4
+ISIC_0572205,melanoma,challenge_2020,mel,4
+ISIC_0028460,melanoma,original_ham10000,mel,4
+ISIC_0032062,nevus,original_ham10000,nv,5
+ISIC_0058344,melanoma,bcn20000,mel,4
+ISIC_0026342,nevus,original_ham10000,nv,5
+ISIC_0056820,melanoma,bcn20000,mel,4
+ISIC_0034446,melanoma,challenge_2019_test,mel,4
+ISIC_0053691,melanoma,bcn20000,mel,4
+ISIC_0027661,nevus,original_ham10000,nv,5
+ISIC_0058900,basal cell carcinoma,bcn20000,bcc,1
+ISIC_0069047,basal cell carcinoma,bcn20000,bcc,1
+ISIC_0058658,melanoma,bcn20000,mel,4
+ISIC_0071844,dermatofibroma,bcn20000,df,3
+ISIC_0053791,melanoma,bcn20000,mel,4
+ISIC_0066965,basal cell carcinoma,bcn20000,bcc,1
+ISIC_0035586,basal cell carcinoma,challenge_2018_t3_t,bcc,1
+ISIC_0026926,nevus,original_ham10000,nv,5
+ISIC_0056296,basal cell carcinoma,bcn20000,bcc,1
+ISIC_7286972,basal cell carcinoma,DERM12345,bcc,1
+ISIC_0057716,melanoma,bcn20000,mel,4
+ISIC_0054302,melanoma,bcn20000,mel,4
+ISIC_0030701,nevus,original_ham10000,nv,5
+ISIC_0055559,dermatofibroma,bcn20000,df,3
+ISIC_0073238,melanoma,bcn20000,mel,4
+ISIC_0029113,benign keratosis-like lesions,original_ham10000,bkl,2
+ISIC_0073010,basal cell carcinoma,bcn20000,bcc,1
+ISIC_1528300,basal cell carcinoma,DERM12345,bcc,1
+ISIC_5311003,melanoma,DERM12345,mel,4
+ISIC_0030105,benign keratosis-like lesions,original_ham10000,bkl,2
+ISIC_0056319,melanoma,bcn20000,mel,4
+ISIC_0062157,basal cell carcinoma,bcn20000,bcc,1
+ISIC_0027443,nevus,original_ham10000,nv,5
+ISIC_0033446,benign keratosis-like lesions,original_ham10000,bkl,2
+ISIC_9828846,melanoma,challenge_2020,mel,4
+ISIC_0031488,nevus,original_ham10000,nv,5
+ISIC_0024700,melanoma,original_ham10000,mel,4
+ISIC_0031632,nevus,original_ham10000,nv,5
+ISIC_0066649,melanoma,bcn20000,mel,4
+ISIC_0030198,nevus,original_ham10000,nv,5
+ISIC_0066603,melanoma,bcn20000,mel,4
+ISIC_0607418,basal cell carcinoma,DERM12345,bcc,1
+ISIC_0025681,nevus,original_ham10000,nv,5
+ISIC_0071060,melanoma,bcn20000,mel,4
+ISIC_0057027,melanoma,bcn20000,mel,4
+ISIC_0032551,nevus,original_ham10000,nv,5
+ISIC_0069706,melanoma,bcn20000,mel,4
+ISIC_0064764,melanoma,bcn20000,mel,4
+ISIC_0025730,nevus,original_ham10000,nv,5
+ISIC_0026166,nevus,original_ham10000,nv,5
+ISIC_0034179,nevus,original_ham10000,nv,5
+ISIC_0024801,nevus,original_ham10000,nv,5
+ISIC_0025818,basal cell carcinoma,original_ham10000,bcc,1
+ISIC_0028355,nevus,original_ham10000,nv,5
+ISIC_0069361,melanoma,bcn20000,mel,4
+ISIC_0024826,nevus,original_ham10000,nv,5
+ISIC_0059113,basal cell carcinoma,bcn20000,bcc,1
+ISIC_0032651,nevus,original_ham10000,nv,5
+ISIC_0069072,melanoma,bcn20000,mel,4
+ISIC_0055359,melanoma,bcn20000,mel,4
+ISIC_0057032,melanoma,bcn20000,mel,4
+ISIC_0030253,nevus,original_ham10000,nv,5
+ISIC_0029335,nevus,original_ham10000,nv,5
+ISIC_0600105,melanoma,DERM12345,mel,4
+ISIC_0058763,melanoma,bcn20000,mel,4
+ISIC_7109468,basal cell carcinoma,DERM12345,bcc,1
+ISIC_0072342,basal cell carcinoma,bcn20000,bcc,1
+ISIC_0059074,melanoma,bcn20000,mel,4
+ISIC_0065846,basal cell carcinoma,bcn20000,bcc,1
+ISIC_0026804,nevus,original_ham10000,nv,5
+ISIC_0025733,nevus,original_ham10000,nv,5
+ISIC_0062678,melanoma,bcn20000,mel,4
+ISIC_7410175,melanoma,challenge_2020,mel,4
+ISIC_0029281,melanoma,original_ham10000,mel,4
+ISIC_0031369,melanoma,original_ham10000,mel,4
+ISIC_0064909,melanoma,bcn20000,mel,4
+ISIC_0025403,nevus,original_ham10000,nv,5
+ISIC_0067151,melanoma,bcn20000,mel,4
+ISIC_0065817,basal cell carcinoma,bcn20000,bcc,1
+ISIC_0068489,basal cell carcinoma,bcn20000,bcc,1
+ISIC_0028832,nevus,original_ham10000,nv,5
+ISIC_0024468,actinic keratoses,original_ham10000,akiec,0
+ISIC_0028480,nevus,original_ham10000,nv,5
+ISIC_7520843,melanoma,challenge_2020,mel,4
+ISIC_0027430,nevus,original_ham10000,nv,5
+ISIC_8615774,basal cell carcinoma,DERM12345,bcc,1
+ISIC_0014361,melanoma,challenge_2019,mel,4
+ISIC_0031500,nevus,original_ham10000,nv,5
+ISIC_8294755,basal cell carcinoma,DERM12345,bcc,1
+ISIC_0030734,nevus,original_ham10000,nv,5
+ISIC_0025436,nevus,original_ham10000,nv,5
+ISIC_0032375,nevus,original_ham10000,nv,5
+ISIC_0028289,nevus,original_ham10000,nv,5
+ISIC_0070412,melanoma,bcn20000,mel,4
+ISIC_0033263,nevus,original_ham10000,nv,5
+ISIC_0033357,nevus,original_ham10000,nv,5
+ISIC_0063392,melanoma,bcn20000,mel,4
+ISIC_0070204,basal cell carcinoma,bcn20000,bcc,1
+ISIC_0072069,melanoma,bcn20000,mel,4
+ISIC_0055060,basal cell carcinoma,bcn20000,bcc,1
+ISIC_0065788,melanoma,bcn20000,mel,4
+ISIC_0027595,basal cell carcinoma,original_ham10000,bcc,1
+ISIC_0055311,melanoma,bcn20000,mel,4
+ISIC_0033772,nevus,original_ham10000,nv,5
+ISIC_0027640,nevus,original_ham10000,nv,5
+ISIC_0293670,basal cell carcinoma,challenge_2024,bcc,1
+ISIC_1288897,dermatofibroma,DERM12345,df,3
+ISIC_0031193,nevus,original_ham10000,nv,5
+ISIC_0031905,nevus,original_ham10000,nv,5
+ISIC_4851249,basal cell carcinoma,challenge_2024,bcc,1
+ISIC_0064515,melanoma,bcn20000,mel,4
+ISIC_0029796,nevus,original_ham10000,nv,5
+ISIC_4530146,basal cell carcinoma,DERM12345,bcc,1
+ISIC_0065697,melanoma,bcn20000,mel,4
+ISIC_0065226,basal cell carcinoma,bcn20000,bcc,1
+ISIC_0065919,basal cell carcinoma,bcn20000,bcc,1
+ISIC_0064057,basal cell carcinoma,bcn20000,bcc,1
+ISIC_0030813,basal cell carcinoma,original_ham10000,bcc,1
+ISIC_0063545,basal cell carcinoma,bcn20000,bcc,1
+ISIC_0035956,melanoma,challenge_2018_t3_t,mel,4
+ISIC_0057369,melanoma,bcn20000,mel,4
+ISIC_0034106,melanoma,original_ham10000,mel,4
+ISIC_0031862,nevus,original_ham10000,nv,5
+ISIC_0055974,basal cell carcinoma,bcn20000,bcc,1
+ISIC_0054006,melanoma,bcn20000,mel,4
+ISIC_0026159,benign keratosis-like lesions,original_ham10000,bkl,2
+ISIC_0057234,melanoma,bcn20000,mel,4
+ISIC_0059815,basal cell carcinoma,bcn20000,bcc,1
+ISIC_0063243,melanoma,bcn20000,mel,4
+ISIC_0033821,nevus,original_ham10000,nv,5
+ISIC_0029336,nevus,original_ham10000,nv,5
+ISIC_0024999,melanoma,original_ham10000,mel,4
+ISIC_0067625,melanoma,bcn20000,mel,4
+ISIC_0032441,melanoma,original_ham10000,mel,4
+ISIC_0026238,nevus,original_ham10000,nv,5
+ISIC_0072271,melanoma,bcn20000,mel,4
+ISIC_7998344,basal cell carcinoma,DERM12345,bcc,1
+ISIC_0033685,benign keratosis-like lesions,original_ham10000,bkl,2
+ISIC_0028514,nevus,original_ham10000,nv,5
+ISIC_9022695,dermatofibroma,DERM12345,df,3
+ISIC_0027295,benign keratosis-like lesions,original_ham10000,bkl,2
+ISIC_0061056,basal cell carcinoma,bcn20000,bcc,1
+ISIC_0025725,nevus,original_ham10000,nv,5
+ISIC_0014501,melanoma,challenge_2019,mel,4
+ISIC_0061283,melanoma,bcn20000,mel,4
+ISIC_0024554,melanoma,original_ham10000,mel,4
+ISIC_0024828,nevus,original_ham10000,nv,5
+ISIC_0027220,nevus,original_ham10000,nv,5
+ISIC_0026681,nevus,original_ham10000,nv,5
+ISIC_0025037,nevus,original_ham10000,nv,5
+ISIC_0069319,basal cell carcinoma,bcn20000,bcc,1
+ISIC_0024767,melanoma,original_ham10000,mel,4
+ISIC_0070197,basal cell carcinoma,bcn20000,bcc,1
+ISIC_0056527,melanoma,bcn20000,mel,4
+ISIC_0031942,nevus,original_ham10000,nv,5
+ISIC_0029214,nevus,original_ham10000,nv,5
